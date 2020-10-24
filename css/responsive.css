@@ -9,6 +9,8 @@
 @media only screen and (max-width: 1148px) {
     .comment_text {
         top: 1vh;
+    } .right {
+        right: 25vw;
     }
 }
 
@@ -17,9 +19,47 @@
         padding: 6vh 0px 6vh 0px;
     } .comment_text {
         top: 0vh;
+    } .right {
+        right: 20vw;
     }
 }
 
-@media only screen and (max-width: 838px) {
-    
+@media only screen and (max-width: 884px) {
+    .right, .left {
+        position: static; 
+        padding-bottom: 10px;
+        }
+        .footer_text {
+            padding: 0px;
+        }
+    /* } .right {
+        padding-bottom: 10px; */
+    .footer_text {
+        display: flex;
+        flex-direction: column-reverse;
+    }  footer {
+       margin: 0vh 10vw;
+   }
+    .comment_shape_last {
+        padding: 1vw 0px 1vw 0px;
+    }
+}
+
+@media only screen and (max-width: 684px) {
+    .comment-text {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .privacy {
+        padding: 5px;
+        text-align: left;
+    }
+    .termini {        
+                padding: 5px;
+        text-align: right;
+    } #vertical_line_footer {
+        display: none;
+    }
 }
