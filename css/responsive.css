@@ -8,14 +8,18 @@
 
 @media only screen and (max-width: 1148px) {
     .comment_text {
-        width: 80%;
-        padding: 30px;
+        top: 1vh;
     }
 }
 
-@media only screen and (height: 500px) {
-    .redirect_button {
-        position: static;
-        margin-bottom: 500px;
+@media only screen and (max-width: 1050px) {
+    .comment_shape {
+        padding: 6vh 0px 6vh 0px;
+    } .comment_text {
+        top: 0vh;
     }
+}
+
+@media only screen and (max-width: 838px) {
+    
 }

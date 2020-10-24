@@ -24,14 +24,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-
-
-
-$(window).scroll(function() {
-    if($(document).scrollTop() > 800){
-        $(".redirect_button").show();
-    } else {
-        $(".redirect_button").hide();
-  }
-});
