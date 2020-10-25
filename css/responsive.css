@@ -1,7 +1,8 @@
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 1095px) {
     .modal-content {
         width: 80%;
         padding: 30px;
+        text-align: left;
     }
 }
 
@@ -9,9 +10,7 @@
 @media only screen and (max-width: 1148px) {
     .comment_text {
         top: 1vh;
-    } .right {
-        right: 25vw;
-    }
+}
 }
 
 @media only screen and (max-width: 1050px) {
@@ -19,9 +18,7 @@
         padding: 6vh 0px 6vh 0px;
     } .comment_text {
         top: 0vh;
-    } .right {
-        right: 20vw;
-    }
+}
 }
 
 @media only screen and (max-width: 884px) {
@@ -46,6 +43,9 @@
 }
 
 @media only screen and (max-width: 684px) {
+    .comment_section {
+        padding: 0px;
+    }
     .comment-text {
         font-size: 0.7em;
     }

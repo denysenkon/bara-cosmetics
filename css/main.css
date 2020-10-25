@@ -5,7 +5,10 @@
 
 html {
     box-sizing: border-box;
+        position: relative;
+
 }
+
 *,
 *:before,
 *:after {
@@ -22,13 +25,49 @@ main, footer {
     margin: 0vh 17vw;
 }
 
+
 img {
     width: 100%;
+}
+
+
+.bg_left {
+    position: absolute;
+    width: 10vw;
+    left: 0px;
+}
+
+#bg_left_1 {
+    top: 888px;
+}
+
+#bg_left_2 {
+    top: 3163px;
+}
+
+
+#bg_left_3 {
+    top: 5484px;
+}
+
+.bg_right {
+    position: absolute;
+    width: 10vw;
+    right: 0px;
+}
+
+#bg_right_1 {
+    top: 1880px;
+}
+
+#bg_right_2 {
+    top: 4312px;
 }
 
 .main_img {
     padding: 50px 0px;
 }
+
 header {
     width: 100vw;
     margin: 0px;
@@ -104,7 +143,7 @@ header {
 
 .comment_section {
     padding: 85px 0px 0px 5vw;
-}
+    }
 
 .commenti {
     position: absolute;
@@ -158,7 +197,7 @@ z-index:1;
 
 .redirect_button {
     text-align: center;
-    margin: 105px 0px 135px;
+    margin: 11vh 0px 12vh;
 }
 /* 
 #button_sticky {
@@ -179,7 +218,7 @@ bottom: 0;
     border: none;
     border-radius: 50px;
     background-color: #f91212;
-    font-size: 28px;
+    font-size: 2.5vw;
     font-family: 'Roboto Medium', sans-serif;
     color: white;
     cursor: pointer;
@@ -206,7 +245,7 @@ bottom: 0;
     display: flex;
     flex-direction: row;
     position: absolute;
-    right: 30vw;
+    right: 20vw;
     text-decoration: underline;
     text-decoration-color: #a8a8a8;
 }
