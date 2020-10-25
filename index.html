@@ -1,325 +1,2668 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Baro Cosmetics</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/popup.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-  </head>
-  <body>
-    <header>
-      <div class='header'>
-        <div class="header_text_left header_padding_left">Articolo pubbicitario</div>
-        <div class='vertical_line'></div>
-        <div class="header_text_right">Divulgazione</div>
-      </div>
-    </header>
-    <div id=header_img>    <img src='img/header_img.png'> </div>
-        </header>
 
-        <main> 
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Baro Cosmetics</title>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/popup.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+</head>
 
- <div class='shape'>
-            <img src='img/shape.png'>
+<body>
+	<header>
+		<div class='header'>
+			<div class="header_text_left header_padding_left">Articolo pubbicitario</div>
+			<div class='vertical_line'></div>
+			<div class="header_text_right" id='myBtnDisclaimer'>Divulgazione
+			<div id="myModalDisclaimer" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+
+					<div class='article_header'>
+						Disclaimer
+					</div>
+
+					<div class='article_text'>
+						<p>Noi, <a href='https://www.barocosmetics.com/'>http://barocosmetics.com/</a> (di seguito
+							denominato, per brevità, "Sito" o "noi”) e/o i Licenziatari non rilasciamo dichiarazioni o
+							garanzie in ordine al Sito, ai Prodotti e ai Servizi, o a qualsiasi sito collegato o al suo
+							contenuto, nonché a qualsivoglia informazione, contenuto e materiale presente su di esso o
+							all'accuratezza, alla completezza o alla tempestività del contenuto, delle informazioni e
+							dei materiali. Inoltre, non garantiamo né affermiamo che l'accesso o l’utilizzo del Sito,
+							dei Prodotti, e/o dei Servizi o di qualsiasi sito collegato sarà ininterrotto o esente da
+							errori, che i difetti saranno corretti o che il Sito, i Prodotti e/o i Servizi o qualsiasi
+							sito collegato saranno privi di virus informatici o di altri componenti dannosi.
+						</p>
+						<br>
+						<p>Non ci assumiamo alcuna responsabilità e non saremo pertanto tenuti ad alcun risarcimento in
+							relazione ad eventuali danni o virus che possano infettare le vostre apparecchiature
+							informatiche o altre proprietà a seguito dell'utilizzo dei Prodotti o dei Servizi, o
+							dell'accesso, dell'uso o della navigazione del Sito, o del download o del caricamento di
+							qualsiasi Contenuto da o verso il Sito. Se non siete soddisfatti del Sito, il vostro unico
+							rimedio è quello di interrompere l'utilizzo del Sito. Nessun consiglio, risultato o
+							informazione, sia orale che scritta, ottenuta da noi o attraverso il Sito, potrà creare
+							alcuna garanzia non espressamente prevista nel presente documento.
+						</p>
+						<br>
+						<p>Non siamo obbligati ad appoggiare, sostenere, sanzionare, incoraggiare o essere d’accordo con
+							qualsiasi contenuto o user, né opinioni, raccomandazioni, contenuti, link, dati o consigli
+							espressi o impliciti qui, ed escludiamo espressamente la responsabilità relativa a qualsiasi
+							contenuto o contenuto generato dagli utenti, materiale e informazioni disponibili sul Sito o
+							attraverso il Sito, I Prodotti e/o I Servizi, creati da utenti o da terze parti.
+						</p>
+						<br>
+						<p>In nessun caso le parti, i loro affiliati e soci e i rispettivi direttori, funzionari,
+							impiegati agenti e altri rappresentati saranno responsabili per qualsiasi danno punitivo,
+							secondario, consequenziale, speciale, indiretto, compresi e non limitati a perdite di ricavi
+							e interruzione dell’attività, a ragione o a torto, compresa la negligenza derivante da
+							qualsiasi utilizzo del Sito, dei Prodotti, Servizi e/o Contenuti relative, o di qualsiasi
+							sito linkato, anche se la parte in questione è espressamente avvisata circa la possibilità
+							di tali danni.
+						</p>
+						<br>
+						<p>Con l’eccezione di danni correlati alla violazione ammessa o legalmente provata della
+							proprietà intellettuale causata dai Prodotti a/o Servizi causata da una parte senza alcun
+							contenuto di terze parti, in nessun caso la responsabilità di una parte eccede le somme
+							totali ricevute da Noi nel corso dei sei (6) mesi immediatamente precedente alla data in cui
+							si sono verificati inizialmente i danni.
+						</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+        
+	</header>
+	<div id=header_img> <img src='img/header_img.png'> </div>
+		</header>
+
+		<main>
+
+			<div class='shape'>
+				<img src='img/shape.png'>
         </div>
-        <div class='header_text ragina_padding_left bold'>
-    Ragina iniziale ----> La mia pagina
-            </div>
-            <div class='header_button button_padding_left'><button type='button' id='header_button'>Autrice: Antonia Genovese</button></div>
+				<div class='header_text ragina_padding_left bold'>
+					Ragina iniziale ----> La mia pagina
+				</div>
+				<div class='header_button button_padding_left'>
+					<button type='button' id='header_button'>Autrice: Antonia Genovese</button></div>
 
-<!-- background -->
-<img src='img/bg_left1.png' class='bg_left' id='bg_left_1'>
-<img src='img/bg_left2.png' class='bg_left' id='bg_left_2'>
-<img src='img/bg_left3.png' class='bg_left' id='bg_left_3'>
-<img src='img/bg_right1.png' class='bg_right' id='bg_right_1'>
-<img src='img/bg_right2.png' class='bg_right' id='bg_right_2'>
+				<!-- background -->
+				<img src='img/bg_left1.png' class='bg_left' id='bg_left_1'>
+				<img src='img/bg_left2.png' class='bg_left' id='bg_left_2'>
+				<img src='img/bg_left3.png' class='bg_left' id='bg_left_3'>
+				<img src='img/bg_right1.png' class='bg_right' id='bg_right_1'>
+				<img src='img/bg_right2.png' class='bg_right' id='bg_right_2'>
 
 
-<div class='main_header padding_left bold'>Compiere trent’anni è stato solamente l’inizio della mia vita!</div>
-<div class='article_header padding_left'>Come ha fatto una madre single di Verona a superare il suo divorzio, la cellulite e infine trovare il marito dei suoi sogni</div>
-<div class='main_img'><img src='img/main_img1.png'></div>
-<div class='article_text padding_left padding_left'>Il mio nome è Antonia Genovese. Un tempo ero giovane e bella. Non dovevo prendermi particolare cura del mio fisico perché gli uomini si innamorassero di me. Ero una vera seduttrice! Non avevo mai pensato di creare una famiglia prima di incontrare il mio futuro marito. In quel momento ho perso la testa! Con il passare del tempo abbiamo avuto due gemelli: un maschio, Federico, e una femmina Enrica. Nonostante per me il parto sia stato molto difficile, adoravo davvero i miei figli e mio marito.</div>
-<div class='article_header padding_left'>Ma, sfortunatamente, dopo il parto iniziarono i problemi...	</div>
-<div class='main_img'><img src='img/main_img2.png'></div>
-<div class='article_text padding_left'>Iniziai ad aumentare di peso e la cellulite fece la sua comparsa. Mi era già successo da giovane, ma a quel tempo la cellulite non era particolarmente visibile. Alcuni dicono che la cellulite non è un grande problema, ma questo non è il mio caso! Iniziai a sentirmi triste, il mio umore era pessimo.</div>
-<div class='article_header padding_left'>Però, la cosa peggiore fu che mio marito iniziò a perdere interesse in me.</div>
-<div class='article_text padding_left'>Però, la cosa peggiore fu che mio marito iniziò a perdere interesse in me. Iniziò a rimanere al lavoro fino a tardi e accampava continuamente scuse. Infine, scoprì la terribile verità: mio marito aveva un’altra donna! Chiesi subito il divorzio e decisi che era tempo di rimettermi insieme e ritrovare il mio antico splendore, per il bene dei miei figli, per me stessa e per crearmi un futuro splendido senza cellulite e senza il mio ex marito!</div>
-<div class='article_header padding_left'>Era facile da dire ma…</div>
-<div class='article_text padding_left'>La mia lotta contro la cellulite durò per molto tempo. Per prima cosa cambiai completamente la mia alimentazione, cercai di smettere di acquistare alimenti nei supermercati e di spostare la mia attenzione sui mercati locali. Iniziai a bere molta acqua, eliminando dolci e farine (questa fu la cosa più difficile!). Quindi iniziai ad andare in palestra e questo fu un passo davvero eroico per me.</div>
-<div class='article_header padding_left'>Mi impegnai al massimo, ma la cellulite non voleva sparire.</div>
-<div class='article_text padding_left'>Mi lamentai nuovamente con un’amica raccontandole che non sarei mai riuscita a eliminare l’odiosa pelle a buccia d’arancia e lei mi raccontò un segreto. Mi spiegò cosa fare. Basta effettuare un massaggio con una crema specifica!</div>
-<div class='article_header padding_left'>La cellulite è difficile da eliminare senza aiuti esterni.	</div>
-<div class='main_img'><img src='img/main_img3.png'></div>
-<div class='article_text padding_left'>Fortunatamente, ora non è un problema trovare ottimi prodotti cosmetici che combattono la cellulite, risolvendo davvero il problema. Massaggiarmi da sola stando a casa era qualcosa che potevo certamente permettermi.</div>
-<div class='article_header padding_left'>Ho provato molti prodotti, ma in complesso anticellulite creato da <a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='  id='redirect_text'>Barò Cosmetics</a> è davvero quello che mi serviva!</div>
-<div class='article_text padding_left'>Le creme contengono ingredienti naturali attivi che creano un effetto antiossidante. Inoltre contengono caffeina, che stimola la circolazione sanguigna e aiuta ad evitare che i fluidi si fermino nei tessuti. Massaggiando la pelle utilizzando queste creme riesco simultaneamente a massaggiarmi e a saturare le cellule epidermiche con sostanze attive. Inoltre, grazie alla presenza nel composto dell’olio di mandorle dolci, la mia pelle diventa super idratata e vellutata.</div>
-<div class='article_header padding_left'>Dopo la prima settimana di utilizzo delle due creme, ho immediatamente visto i risultati.</div>
-<div class='article_text padding_left'>Non riuscivo a credere che quelle gambe stupende fossero le mie! La cellulite spariva giorno dopo giorno. Per la prima volta in un anno decisi di indossare una gonna corta! Era davvero una sensazione fantastica. Stavo rifiorendo!</div>
-<div class='article_header padding_left'>Infine, mi sentivo bella come a diciott’anni.</div>
-<div class='main_img'><img src='img/main_img4.png'></div>
-<div class='article_text padding_left'>Compresi che grazie al complesso creato da <a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='  id='redirect_text'>Barò Cosmetics,</a> la cellulite non era più un problema. Gli uomini iniziarono nuovamente a fissarmi e potevo facilmente flirtare con chiunque. Dopo tutto, la mia autostima era davvero al settimo cielo. <br>
-<br>
-Dopo altre due settimane completai il trattamento con il complesso anticellulite creato da <a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='  id='redirect_text'>Barò Cosmetics</a> e sul mio corpo non c’erano più i segni della pelle a buccia d’arancio. Ora, la mia pelle era liscia e stupenda: una vera meraviglia.</div>
-<div class='article_header padding_left'>Un paio di giorni dopo incontrai un uomo che successivamente sarebbe diventato mio marito e che mi adora!	</div>
-<div class='main_img'><img src='img/main_img5.png'></div>
-<div class='article_text padding_left'>Sono felice e so che molte donne hanno bisogno dello stesso aiuto. Quindi, se stai aspettando un segno per migliorare te stessa, eccolo qui! Il complesso anticellulite creato da <a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0=' id='redirect_text'>Barò Cosmetics</a> è la tua “bacchetta magica” per lottare contro la cellulite senza sottoporti a diete ed esercizi estenuanti.
-    <br>
-    <br>
+				<div class='main_header padding_left bold'>Compiere trent’anni è stato solamente l’inizio della mia
+					vita!</div>
+				<div class='article_header padding_left'>Come ha fatto una madre single di Verona a superare il suo
+					divorzio, la cellulite e infine trovare il marito dei suoi sogni</div>
+				<div class='main_img'><img src='img/main_img1.png'></div>
+					<div class='article_text padding_left padding_left'>Il mio nome è Antonia Genovese. Un tempo ero
+						giovane e bella. Non dovevo prendermi particolare cura del mio fisico perché gli uomini si
+						innamorassero di me. Ero una vera seduttrice! Non avevo mai pensato di creare una famiglia prima
+						di incontrare il mio futuro marito. In quel momento ho perso la testa! Con il passare del tempo
+						abbiamo avuto due gemelli: un maschio, Federico, e una femmina Enrica. Nonostante per me il
+						parto sia stato molto difficile, adoravo davvero i miei figli e mio marito.</div>
+					<div class='article_header padding_left'>Ma, sfortunatamente, dopo il parto iniziarono i problemi...
+					</div>
+					<div class='main_img'><img src='img/main_img2.png'></div>
+						<div class='article_text padding_left'>Iniziai ad aumentare di peso e la cellulite fece la sua
+							comparsa. Mi era già successo da giovane, ma a quel tempo la cellulite non era
+							particolarmente visibile. Alcuni dicono che la cellulite non è un grande problema, ma questo
+							non è il mio caso! Iniziai a sentirmi triste, il mio umore era pessimo.</div>
+						<div class='article_header padding_left'>Però, la cosa peggiore fu che mio marito iniziò a
+							perdere interesse in me.</div>
+						<div class='article_text padding_left'>Però, la cosa peggiore fu che mio marito iniziò a perdere
+							interesse in me. Iniziò a rimanere al lavoro fino a tardi e accampava continuamente scuse.
+							Infine, scoprì la terribile verità: mio marito aveva un’altra donna! Chiesi subito il
+							divorzio e decisi che era tempo di rimettermi insieme e ritrovare il mio antico splendore,
+							per il bene dei miei figli, per me stessa e per crearmi un futuro splendido senza cellulite
+							e senza il mio ex marito!</div>
+						<div class='article_header padding_left'>Era facile da dire ma…</div>
+						<div class='article_text padding_left'>La mia lotta contro la cellulite durò per molto tempo.
+							Per prima cosa cambiai completamente la mia alimentazione, cercai di smettere di acquistare
+							alimenti nei supermercati e di spostare la mia attenzione sui mercati locali. Iniziai a bere
+							molta acqua, eliminando dolci e farine (questa fu la cosa più difficile!). Quindi iniziai ad
+							andare in palestra e questo fu un passo davvero eroico per me.</div>
+						<div class='article_header padding_left'>Mi impegnai al massimo, ma la cellulite non voleva
+							sparire.</div>
+						<div class='article_text padding_left'>Mi lamentai nuovamente con un’amica raccontandole che non
+							sarei mai riuscita a eliminare l’odiosa pelle a buccia d’arancia e lei mi raccontò un
+							segreto. Mi spiegò cosa fare. Basta effettuare un massaggio con una crema specifica!</div>
+						<div class='article_header padding_left'>La cellulite è difficile da eliminare senza aiuti
+							esterni. </div>
+						<div class='main_img'><img src='img/main_img3.png'></div>
+							<div class='article_text padding_left'>Fortunatamente, ora non è un problema trovare ottimi
+								prodotti cosmetici che combattono la cellulite, risolvendo davvero il problema.
+								Massaggiarmi da sola stando a casa era qualcosa che potevo certamente permettermi.</div>
+							<div class='article_header padding_left'>Ho provato molti prodotti, ma in complesso
+								anticellulite creato da <a
+									href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='
+									id='redirect_text'>Barò Cosmetics</a> è davvero quello che mi serviva!</div>
+							<div class='article_text padding_left'>Le creme contengono ingredienti naturali attivi che
+								creano un effetto antiossidante. Inoltre contengono caffeina, che stimola la
+								circolazione sanguigna e aiuta ad evitare che i fluidi si fermino nei tessuti.
+								Massaggiando la pelle utilizzando queste creme riesco simultaneamente a massaggiarmi e a
+								saturare le cellule epidermiche con sostanze attive. Inoltre, grazie alla presenza nel
+								composto dell’olio di mandorle dolci, la mia pelle diventa super idratata e vellutata.
+							</div>
+							<div class='article_header padding_left'>Dopo la prima settimana di utilizzo delle due
+								creme, ho immediatamente visto i risultati.</div>
+							<div class='article_text padding_left'>Non riuscivo a credere che quelle gambe stupende
+								fossero le mie! La cellulite spariva giorno dopo giorno. Per la prima volta in un anno
+								decisi di indossare una gonna corta! Era davvero una sensazione fantastica. Stavo
+								rifiorendo!</div>
+							<div class='article_header padding_left'>Infine, mi sentivo bella come a diciott’anni.</div>
+							<div class='main_img'><img src='img/main_img4.png'></div>
+								<div class='article_text padding_left'>Compresi che grazie al complesso creato da <a
+										href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='
+										id='redirect_text'>Barò Cosmetics,</a> la cellulite non era più un problema. Gli
+									uomini iniziarono nuovamente a fissarmi e potevo facilmente flirtare con chiunque.
+									Dopo tutto, la mia autostima era davvero al settimo cielo. <br>
+									<br>
+Dopo altre due settimane completai il trattamento con il complesso anticellulite creato da <a
+										href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='
+										id='redirect_text'>Barò Cosmetics</a> e sul mio corpo non c’erano più i segni
+									della pelle a buccia d’arancio. Ora, la mia pelle era liscia e stupenda: una vera
+									meraviglia.</div>
+								<div class='article_header padding_left'>Un paio di giorni dopo incontrai un uomo che
+									successivamente sarebbe diventato mio marito e che mi adora! </div>
+								<div class='main_img'><img src='img/main_img5.png'></div>
+									<div class='article_text padding_left'>Sono felice e so che molte donne hanno
+										bisogno dello stesso aiuto. Quindi, se stai aspettando un segno per migliorare
+										te stessa, eccolo qui! Il complesso anticellulite creato da <a
+											href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='
+											id='redirect_text'>Barò Cosmetics</a> è la tua “bacchetta magica” per
+										lottare contro la cellulite senza sottoporti a diete ed esercizi estenuanti.
+										<br>
+										<br>
     Ho ordinato la crema sul sito Web del produttore e mi è stata consegnata rapidamente e senza problemi. È semplice da utilizzare. Si tratta del modo ideale di prendersi cura di se stesse anche quando non si ha molto tempo libero.
 </div>
-<div class='article_header padding_left'>E ricorda: non esistono problemi irrisolvibili. Puoi essere stupenda a qualsiasi età. Io ne sono la prova vivente!</div>
-</main>
+										<div class='article_header padding_left'>E ricorda: non esistono problemi
+											irrisolvibili. Puoi essere stupenda a qualsiasi età. Io ne sono la prova
+											vivente!</div>
+		</main>
 
 
-<footer>
-<div class='comment_section'>
+		<footer>
+			<div class='comment_section'>
 
-<div class='commenti'><button type='button' id='commenti'>Commenti:</button></div> 
-<div id='comment_shape_first'>
-    <img src='img/comment_shape.png'>
-</div>
-
-<div class='comment'>
-<a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
-<div class='comment_avatar'><img src='img/comment1.png'></div> 
-</a>
-
-<div class='comment_text'> <span class='comment_name'>Carmen</span><br>Questo prodotto è fantastico! Ha cambiato la mia vita. Cinque amiche lo utilizzano! Buona fortuna a tutte le donne che decidono di provare <a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0=' id='redirect_text'>Barò Cosmetics.</a></div>
-<div class='comment_shape'>
-    <img src='img/comment_shape.png'>
-</div>
+				<div class='commenti'><button type='button' id='commenti'>Commenti:</button></div>
+				<div id='comment_shape_first'>
+					<img src='img/comment_shape.png'>
 </div>
 
-<div class='comment'>
-<a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
-<div class='comment_avatar'><img src='img/comment2.png'></div>
-</a>
-<div class='comment_text'> <span class='comment_name'>Gabriella</span><br>Ho visto questo prodotto in TV. Al momento lo sto utilizzando da due mesi. Devo dire che funziona veramente, i risultati sono incredibili. Grazie veramente per aver pubblicato questo articolo.</div>
-<div class='comment_shape'>
-    <img src='img/comment_shape.png'>
-</div>
-</div>
+					<div class='comment'>
+						<a
+							href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
+							<div class='comment_avatar'><img src='img/comment1.png'></div>
+						</a>
 
-<div class='comment'>
-<a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
-<div class='comment_avatar'><img src='img/comment3.png'></div>
-</a>
-<div class='comment_text'> <span class='comment_name'>Anna</span><br>Devo ordinarlo prima che finisca! Grazie per aver condiviso la tua esperienza</div>
-<div class='comment_shape'>
-    <img src='img/comment_shape.png'>
+						<div class='comment_text'> <span class='comment_name'>Carmen</span><br>Questo prodotto è fantastico! Ha cambiato la mia vita. Cinque amiche lo utilizzano! Buona fortuna a tutte le donne che decidono di provare
+							<a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='
+								id='redirect_text'>Barò Cosmetics.</a></div>
+						<div class='comment_shape'>
+							<img src='img/comment_shape.png'>
 </div>
-</div>
+						</div>
 
-<div class='comment'>
-<a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
-<div class='comment_avatar'><img src='img/comment4.png'></div>
-</a>
-<div class='comment_text'><span class='comment_name'>Julia</span><br>Ero un po’ scettica quando ho letto di questo prodotto per la prima volta, ma dopo aver fatto un po’ di ricerca ho scoperto che <a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0=' id='redirect_text'>Barò Cosmetics</a> permette realmente di ottenere i risultati che promette. Uno dei migliori segreti anticellulite. Non è certo una sorpresa che molte celebrità lo utilizzino.</div>
-<div class='comment_shape'>
-    <img src='img/comment_shape.png'>
+						<div class='comment'>
+							<a
+								href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
+								<div class='comment_avatar'><img src='img/comment2.png'></div>
+							</a>
+							<div class='comment_text'>
+								<span class='comment_name'>Gabriella</span><br>Ho visto questo prodotto in TV. Al momento lo sto utilizzando da due mesi. Devo dire che funziona veramente, i risultati sono incredibili. Grazie veramente per aver pubblicato questo articolo.</div>
+								<div class='comment_shape'>
+									<img src='img/comment_shape.png'>
 </div>
-</div>
+								</div>
 
-<div class='comment'>
-<a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
-<div class='comment_avatar'><img src='img/comment5.png'></div>
-</a>
-<div class='comment_text'> <span class='comment_name'>Siena</span><br>La cellulite è scomparsa! Guarda le mie foto!</div>
-<div class='comment_shape'>
-    <img src='img/comment_shape.png'>
+								<div class='comment'>
+									<a
+										href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
+										<div class='comment_avatar'><img src='img/comment3.png'></div>
+									</a>
+									<div class='comment_text'>
+										<span class='comment_name'>Anna</span><br>Devo ordinarlo prima che finisca! Grazie per aver condiviso la tua esperienza</div>
+										<div class='comment_shape'>
+											<img src='img/comment_shape.png'>
 </div>
-</div>
+										</div>
 
-<div class='comment'>
-<a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
-<div class='comment_avatar'><img src='img/comment6.png'></div>
-</a>
-<div class='comment_text'> <span class='comment_name'>Rosa</span><br>Molte grazie all’autrice dell’articolo! Anch’io soffro di cellulite e non sapevo come risolvere il problema. Ora lo so. Ordinerò immediatamente la crema dal sito Web. Sarà la mia salvezza.</div>
-<div class='comment_shape'>
-    <img src='img/comment_shape.png'>
+										<div class='comment'>
+											<a
+												href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
+												<div class='comment_avatar'><img src='img/comment4.png'></div>
+											</a>
+											<div class='comment_text'><span class='comment_name'>Julia</span><br>Ero un po’ scettica quando ho letto di questo prodotto per la prima volta, ma dopo aver fatto un po’ di ricerca ho scoperto che
+												<a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='
+													id='redirect_text'>Barò Cosmetics</a> permette realmente di ottenere
+												i risultati che promette. Uno dei migliori segreti anticellulite. Non è
+												certo una sorpresa che molte celebrità lo utilizzino.</div>
+											<div class='comment_shape'>
+												<img src='img/comment_shape.png'>
 </div>
+											</div>
+
+											<div class='comment'>
+												<a
+													href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
+													<div class='comment_avatar'><img src='img/comment5.png'></div>
+												</a>
+												<div class='comment_text'>
+													<span class='comment_name'>Siena</span><br>La cellulite è scomparsa! Guarda le mie foto!</div>
+													<div class='comment_shape'>
+														<img src='img/comment_shape.png'>
 </div>
+													</div>
 
-<div class='comment'>
-<a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
-<div class='comment_avatar'><img src='img/comment7.png'></div>
-</a>
-<div class='comment_text'> <span class='comment_name'>Izabella</span><br>Sono davvero elettrizzata! Sono riuscita ad eliminare la cellulite in cinque settimane.</div>
-<div class='comment_shape'>
-    <img src='img/comment_shape.png'>
+													<div class='comment'>
+														<a
+															href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
+															<div class='comment_avatar'>
+																<img src='img/comment6.png'></div>
+														</a>
+														<div class='comment_text'>
+															<span class='comment_name'>Rosa</span><br>Molte grazie all’autrice dell’articolo! Anch’io soffro di cellulite e non sapevo come risolvere il problema. Ora lo so. Ordinerò immediatamente la crema dal sito Web. Sarà la mia salvezza.</div>
+															<div class='comment_shape'>
+																<img src='img/comment_shape.png'>
 </div>
+															</div>
+
+															<div class='comment'>
+																<a
+																	href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
+																	<div class='comment_avatar'>
+																		<img src='img/comment7.png'></div>
+																</a>
+																<div class='comment_text'>
+																	<span class='comment_name'>Izabella</span><br>Sono davvero elettrizzata! Sono riuscita ad eliminare la cellulite in cinque settimane.</div>
+																	<div class='comment_shape'>
+																		<img src='img/comment_shape.png'>
 </div>
+																	</div>
 
-<div class='comment'>
-<a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
-<div class='comment_avatar'><img src='img/comment8.png'></div>
-</a>
-<div class='comment_text'> <span class='comment_name'>Luciana</span><br>Favolosa! La mia migliore amica la utilizza. Non riuscivo a crederci e ho fatto un po’ di ricerca fino a quando ho trovato questo articolo. Non riesco a credere che sia disponibile n stock! Grazie!!</div>
+																	<div class='comment'>
+																		<a
+																			href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='>
+																			<div class='comment_avatar'>
+																				<img src='img/comment8.png'></div>
+																		</a>
+																		<div class='comment_text'>
+																			<span class='comment_name'>Luciana</span><br>Favolosa! La mia migliore amica la utilizza. Non riuscivo a crederci e ho fatto un po’ di ricerca fino a quando ho trovato questo articolo. Non riesco a credere che sia disponibile n stock! Grazie!!</div>
 
+																		</div>
+
+																	</div>
+																	<div class='button_wrapper'>
+																		<div class='redirect_button' id='button_sticky'>
+																			<a
+																				href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='><button type='button' id='redirect_button' onclick = '_mgq.push(["MgSensorInvoke", "447000"])'>Elimina la cellulite con Barò Cosmetics</button></a>
+																		</div>
+																	</div>
+																	<div class='comment_shape comment_shape_last'>
+																		<img src='img/comment_shape.png'>
 </div>
+																		<div class='footer_text'>
+																			<div class='copyright left'>
+																				@ Copyright 2020
+																			</div>
+																			<div class='right'>
+																				<div class='privacy' id='myBtnPrivacy'>
+																					Informativa sulla privacy
+																					<div id="myModalPrivacy"
+																						class="modal">
+																						<div class="modal-content">
+																							<span class="close">&times;</span>
 
+																							<div class='article_header'>
+																								Informativa sulla
+																								privacy
+																							</div>
+
+																							<div class='article_text'>
+																								<p><a
+																										href='https://www.barocosmetics.com/'>http://barocosmetics.com</a>
+																									(nel seguito
+																									menzionato come
+																									“sito”, “noi”,
+																									“nostro”) rispetta
+																									ogni aspetto
+																									relazionato alla
+																									privacy degli utenti
+																									di questo sito e ha
+																									creato questa
+																									informativa sulla
+																									privacy per spiegare
+																									quali informazioni
+																									collezioniamo
+																									durante la visita
+																									degli utenti ai
+																									nostri siti e come
+																									vengono utilizzate
+																									tali informazioni.
+																								</p>
+																							</div>
+																							<div class='privacy_header'>
+																								Uso delle informazioni
+																							</div>
+																							<div class='article_text'>
+																								Come politica generale,
+																								nessuna informazione
+																								personale in grado di
+																								identificare l’utente,
+																								come per esempio il nome
+																								o l’indirizzo, viene
+																								collezionata durante le
+																								visite sul sito. In ogni
+																								caso, certe informazioni
+																								non personali vengono
+																								registrate durante le
+																								attività standard dei
+																								server Internet.
+																								Informazioni quali il
+																								tipo di browser
+																								utilizzato, il sistema
+																								operativo e l’indirizzo
+																								IP vengono collezionate
+																								per poter migliorare
+																								l’esperienza online
+																								degli utenti. Per
+																								esempio, tali
+																								informazioni potrebbero
+																								essere utilizzate per
+																								creare contenuto e
+																								pubblicità basate
+																								specificamente sugli
+																								interessi degli utenti.
+																								<br>
+																								<br>
+Abbiamo facoltà di rivelare le informazioni relative all’utente in casi speciali, per esempio se esiste una ragione di credere che la divulgazione di tali informazioni sia necessaria a identificare o contattare un utente o nel caso sia necessario intraprendere un’azione legale contro una persona in grado di causare danni o interferire (sia intenzionalmente che non intenzionalmente) con i diritti o le proprietà del sito, con altri utenti del sito o qualsiasi altra persona.
 </div>
-<div class='button_wrapper'>
-<div class='redirect_button' id='button_sticky'><a href='https://cart.barocosmetics.com/direct?landing=eyJpdiI6IjlPejNBRmN4WXI1cWMzOEJrSE8yQ0E9PSIsInZhbHVlIjoiZ0dvNUViRjFCOE9POUlId1Y1dVwvVnc9PSIsIm1hYyI6ImE4MzFjYzc2ZTdkMTUzNDc3YWFkYTJjYWRjNjRjMDM5ZTU3Y2NiYTc0NTY0YjI4NDkzMDcyODMxYjFmNTRlNzUifQ==&p=eyJpdiI6Ino4QlwvTWRsb1FYYXdnNkpDd0dheUlBPT0iLCJ2YWx1ZSI6IkN6dWczVVFpNTZcL2xoSWFnVTFVbGVnPT0iLCJtYWMiOiIyNWY1NjM3MmYxNGZhMzg5NjdiZjNjZDMwZDZmMTUxOWFiZTg3NjEzNTljOWRiNDEzZjU4OWI5NTdiNTkxZWUzIn0='><button type='button' id='redirect_button' onclick = '_mgq.push(["MgSensorInvoke", "447000"])'>Elimina la cellulite con Barò Cosmetics</button></a></div>
+																								<div
+																									class='privacy_header'>
+																									Sicurezza
+																								</div>
+																								<div
+																									class='article_text'>
+																									Per noi è
+																									estremamente
+																									importante la
+																									sicurezza di tutte
+																									le informazioni
+																									personali e che
+																									permettono
+																									l’identificazione.
+																									Sfortunatamente,
+																									nessuna trasmissione
+																									di dati tramite
+																									Internet può essere
+																									completamente
+																									garantita e sicura.
+																									Nonostante i nostri
+																									sforzi per
+																									proteggere le
+																									informazioni
+																									personali degli
+																									utenti, non possiamo
+																									assicurare o
+																									garantire la
+																									sicurezza di ogni
+																									informazione inviata
+																									o inserita nei
+																									nostri moduli
+																									online. Tutte queste
+																									azioni vengono
+																									eseguite dell’utente
+																									a proprio rischio.
+																									Una volta ricevuti i
+																									dati dell’utente
+																									lavoriamo al massimo
+																									delle nostre
+																									capacità per
+																									garantire la
+																									sicurezza di tali
+																									informazioni
+																									presenti nei nostri
+																									sistemi.
+																								</div>
+																								<div
+																									class='privacy_header'>
+																									Uso dei cookie
+																								</div>
+																								<div
+																									class='article_text'>
+																									I cookie sono parti
+																									di informazioni che
+																									un sito Web
+																									trasferisce
+																									nell’hard drive di
+																									un computer
+																									individuale con il
+																									fine di registrare
+																									alcune informazioni.
+																									I cookie vengono
+																									utilizzati con
+																									l’intento di
+																									monitorare le visite
+																									nei nostri siti e
+																									personalizzare
+																									l’esperienza sul
+																									sito degli iscritti
+																									attuali e dei nuovi
+																									utenti. La maggior
+																									parte dei browser è
+																									impostata
+																									inizialmente per
+																									accettare i cookie;
+																									in ogni caso è
+																									possibile impostare
+																									il browser per
+																									rifiutare i cookie
+																									oppure per indicare
+																									quando un cookie
+																									viene inviato.
+																									(Nota: è necessario
+																									consultare la
+																									sezione di aiuto del
+																									browser per le
+																									relative
+																									istruzioni).
+																									Scegliendo di
+																									disabilitare i
+																									cookie o rifiutando
+																									di accettare un
+																									cookie, alcune parti
+																									del nostro sito Web
+																									potrebbero non
+																									funzionare
+																									correttamente.
+																								</div>
+																								<div
+																									class='privacy_header'>
+																									Uso di indirizzi IP
+																									<br>
 </div>
-<div class='comment_shape comment_shape_last'>
-    <img src='img/comment_shape.png'>
+																									<div
+																										class='article_text'>
+																										Un indirizzo IP
+																										è un numero
+																										assegnato
+																										automaticamente
+																										dal provider
+																										Internet al
+																										computer di un
+																										utente quando
+																										questo naviga
+																										nel Web. Quando
+																										l’utente accede
+																										alle pagine del
+																										nostro sito i
+																										server
+																										registrano il
+																										suo indirizzo
+																										IP.
+																										Collezioniamo
+																										gli indirizzi IP
+																										con fini legati
+																										all’amministrazione
+																										del sistema, per
+																										riferire ai
+																										nostri
+																										inserzionisti le
+																										informazioni
+																										aggregate e per
+																										valutare
+																										l’utilizzo del
+																										nostro sito.
+																										Potremmo
+																										utilizzare gli
+																										indirizzi IP
+																										dell’utente in
+																										associazione al
+																										nostro provider
+																										Internet per
+																										identificare
+																										l’utente nel
+																										caso ritenessimo
+																										necessario
+																										applicare la
+																										compliance dei
+																										nostri Termini
+																										di utilizzo o
+																										per proteggere i
+																										nostri servizi,
+																										siti, clienti o
+																										altre persone.
+																									</div>
+																									<div
+																										class='privacy_header'>
+																										I link ad altri
+																										siti
+																									</div>
+																									<div
+																										class='article_text'>
+																										Il sito non è
+																										responsabile per
+																										il contenuto o
+																										le pratiche di
+																										siti Web di
+																										terze parti che
+																										potrebbero
+																										essere collegati
+																										al nostri siti.
+																										I nostri siti
+																										potrebbero
+																										contenere
+																										collegamenti a
+																										siti Web gestiti
+																										da altre
+																										aziende; non
+																										siamo
+																										responsabili per
+																										le misure
+																										adottate da
+																										questi siti Web
+																										in relazione
+																										alla privacy. I
+																										visitatori di
+																										questi siti Web
+																										dovrebbero
+																										consultare le
+																										differenti
+																										prassi e
+																										informative
+																										relative alla
+																										privacy di ogni
+																										sito visitato.
+																									</div>
+																									<div
+																										class='privacy_header'>
+																										I cookie di
+																										terze parti
+																									</div>
+																									<div
+																										class='article_text'>
+																										Nei servizi
+																										pubblicitari
+																										presenti nei
+																										nostri siti Web,
+																										alcuni
+																										inserzionisti di
+																										terze parti
+																										potrebbero
+																										inserire o
+																										riconoscere
+																										“cookie” unici
+																										presenti nel
+																										browser
+																										dell’utente.
+																										<br>
+																										<br>
+Utilizziamo aziende pubblicitarie terze per la creazione delle pubblicità presenti durante le visite degli utenti al nostro sito Web. Queste aziende potrebbero utilizzare informazioni aggregate (che non includono nome, indirizzo, indirizzo e-mail o numero di telefono) relazionate alle visite dell’utente a questo sito o altri siti Web, con l’intento di creare pubblicità relative a beni e servizi d’interesse per l’utente. Per maggiori informazioni su questa pratica e per scoprire come impedire l’utilizzo di queste informazioni da parte di tali aziende, è possibile visitare Network Advertising Initiative o Self-Regulatory Program for Online Behavioral Advertising. Google AdSense e altri servizi di terzi che utilizzano i cookie in relazione alle pubblicità presenti sui nostri siti Web. Gli utenti possono rifiutare l’utilizzo di cookie DART consultando l’informativa sulla privacy relativa al contenuto in rete e quella di Google.
 </div>
-    <div class='footer_text'>
-<div class='copyright left'>
-    @ Copyright 2020
-    </div>
-    <div class='right'>
-    <div class='privacy'>
-        Informativa sulla privacy 
-    </div>
-    <div id='vertical_line_footer'></div>
-    <div class='termini' id='myBtn'>
-        Termini e Condizioni
+																										<div
+																											class='privacy_header'>
+																											Contattaci
+																										</div>
+																										<div
+																											class='article_text'>
+																											Nel caso
+																											l’utente
+																											abbia
+																											qualsiasi
+																											domanda su
+																											questa
+																											informativa
+																											sulla
+																											privacy, le
+																											pratiche dei
+																											nostri siti
+																											o le sue
+																											attività con
+																											i nostri
+																											siti, può
+																											inviarci
+																											un’e-mail
+																											evidenziando
+																											il suo
+																											desiderio
+																											che le
+																											informazioni
+																											da lui
+																											fornite
+																											tramite
+																											domande
+																											generali via
+																											e-mail (per
+																											esempio
+																											l’indirizzo
+																											e-mail),
+																											vengano
+																											utilizzate
+																											solo per
+																											rispondere
+																											alle domande
+																											relative al
+																											corso
+																											naturale del
+																											business e
+																											non vengano
+																											mai
+																											condivise
+																											con terze
+																											parti.
+																										</div>
+																										<div
+																											class='privacy_header'>
+																											Accettazione
+																											di questi
+																											termini da
+																											parte
+																											dell’utente
+																										</div>
+																										<div
+																											class='article_text'>
+																											Utilizzando
+																											questo sito,
+																											l’utente
+																											accetta
+																											consapevolmente
+																											questa
+																											informativa
+																											sulla
+																											privacy. Nel
+																											caso
+																											l’utente non
+																											sia
+																											d’accordo
+																											con questa
+																											informativa,
+																											non deve
+																											utilizzare i
+																											nostri siti.
+																											Ci
+																											riserviamo
+																											il diritto
+																											di
+																											modificare,
+																											alterare o
+																											aggiornare
+																											in altro
+																											modo questa
+																											informativa
+																											in qualsiasi
+																											momento.
+																											Incoraggiamo
+																											i visitatori
+																											a
+																											revisionare
+																											costantemente
+																											questa
+																											informativa.
+																											L’utilizzo
+																											continuato
+																											del sito
+																											successivamente
+																											alla
+																											pubblicazione
+																											delle
+																											modifiche a
+																											questi
+																											termini,
+																											implica
+																											l’accettazione
+																											di tali
+																											modifiche.
+																										</div>
 
-<div id="myModal" class="modal">
 
-  <div class="modal-content">
-    <span class="close">&times;</span>
-   
 
-    <div id='termini_e_condizioni'>
+																									</div>
+																								</div>
 
-        <div class='article_header'>
-            Termini e Condizioni
-            </div>
-            <div class='article_text'>
-                Utilizzando <a href='https://www.barocosmetics.com/'>http://barocosmetics.com</a> (di seguito indicato come "Sito" o"Noi"), dichiari di accettare i seguenti Termini e Condizioni. Se non accetti i seguenti Termini e condizioni, ti preghiamo di non utilizzare il nostro Sito. Ci riserviamo il diritto di modificare, alterare o aggiornare in altro modo questa polizza in qualsiasi momento. Noi preghiamo i visitatori a rivedere periodicamente i suddetti Termini e Condizioni. L'uso continuato del Sito dopo la pubblicazione di modifiche a questi termini indica l'accettazione delle suddette da parte tua.
-    </div>
-    
-    <div class='termini_header'>
-        1. Il tuo Account
-    </div>
-    <div class='article_text'>
-        Se crei un account sul nostro Sito, sei responsabile per il mantenimento della sicurezza del tuo account e sei pienamente responsabile di tutte le attività che si verificano sotto l'account e di qualsiasi altra azione intrapresa correlata all'account. Accetti di fornire e mantenere informazioni accurate, aggiornate e complete, comprese le tue informazioni sulle opzioni di pagamento e le informazioni di contatto per avvisi e altre comunicazioni da parte Nostra. Non puoi utilizzare informazioni false o fuorvianti correlate al tuo account.
-    </div>
-    
-    
-    <div class='termini_header'>
-        2. Responsabilità degli Utilizzatori del Sito, dei Prodotti e/o dei Servizi
-    </div>
-    <div class='article_text'>
-        Il tuo accesso, e il tuo utilizzo, del Sito, dei Prodotti e/o dei Servizi devono essere legittimi e devono essere conformi ai presenti Termini e a qualsiasi altro accordo tra te e noi. Quando accedi o utilizzi il Sito, i Prodotti e/o i Servizi, devi sempre comportarti in modo civile e rispettoso. Vietiamo espressamente qualsiasi utilizzo del Sito, dei Prodotti e/o dei Servizi, e acconsenti a non utilizzare il Sito, per uno dei seguenti motivi:
-    <ul>
-        <li><span>Intraprendere una condotta che potrebbe costituire un reato, dare luogo a responsabilità civili o altrimenti violare qualsiasi legge o regolamento cittadino, statale nazionale o internazionale non ritenuto conforme al protocollo internet accettato;</span></li>
-        <li><span>Comunicare, trasmettere o pubblicare materiale protetto da copyright oppure di proprietà di una terza parte, a meno che tu non sia il proprietario del copyright o disponga del permesso del proprietario di pubblicarlo;</span> </li>
-        <li><span>Comunicare, trasmettere o pubblicare materiale che riveli segreti commerciali, a meno che tu non sia il proprietario o disponga del permesso del proprietario;</span></li>
-        <li><span>Comunicare, trasmettere o pubblicare materiale che violi la proprietà intellettuale, la privacy o il diritto di pubblicità altrui;</span></li>
-        <li><span>Tentare di interferire in qualsiasi modo con il Sito, le nostre reti o la loro sicurezza, o tentare di utilizzare il nostro Sito per ottenere accesso non autorizzato a un qualsiasi altro dispositivo;</span></li>
-        <li><span>L'accesso a dati non destinati all'utente, o l'accesso a un server o account a cui non si è stati autorizzati;</span></li>
-    </ul>
-    In aggiunta, se gestisci un account, contribuisci a un account, pubblichi materiale sul Sito, pubblichi collegamenti ipertestuali sul Sito o rendi disponibile materiale in altro modo per mezzo del Sito (qualsiasi materiale di questo tipo, "Contenuto"), sei l'unico responsabile per il Contenuto e qualsiasi violazione e danno derivante da tale Contenuto, indipendentemente dal fatto che il Contenuto in questione sia testo, grafica, file audio o software per computer. Rendendo disponibile il Contenuto, dichiari e garantisci che:
-    <ul>
-        <li><span>il download, la copia e l'utilizzo del Contenuto non violerà i diritti di proprietà, includendo ma non limitando a diritti d'autore, brevetti, marchi commerciali o segreti commerciali di terze parti;</span></li>
-        <li><span>hai rispettato pienamente eventuali licenze di terze parti relative al Contenuto, e hai fatto tutto il necessario per trasmettere con successo agli utenti finali i termini richiesti;</span></li>
-        <li><span>il Contenuto non contiene né installa virus, worm, malware, trojan o altri contenuti dannosi o distruttivi;</span></li>
-        <li><span>il Contenuto non è osceno, diffamatorio, odioso o discutibile per motivi razziali e/o etnici, e non viola la privacy o i diritti pubblicitari di terze parti.</span></li>
-    </ul>
-    È tua responsabilità prendere le precauzioni necessarie per proteggere te stesso e il tuo computer da virus, worm e altri contenuti dannosi o distruttivi. Provvederemo ragionevoli precauzioni per impedire la trasmissione di contenuti dannosi da sistemi tecnologici ai tuoi sistemi tecnologici. Noi decliniamo espressamente qualsiasi responsabilità per eventuali danni o danni derivanti dall'accesso o dall'utilizzo del Sito, dei Prodotti e/o dei Servizi, dall'accesso o dall'utilizzo di siti Web di terzi. Abbiamo il diritto (ma non l'obbligo) di (i) rifiutare o rimuovere qualsiasi Contenuto che, a nostro ragionevole parere, violi qualsiasi nostra politica interna o sia in alcun modo dannoso o discutibile, o (ii) interrompa o neghi l'accesso e l'utilizzo del Sito, dei Prodotti e / o dei Servizi, a qualsiasi persona per qualsiasi motivo, a nostra esclusiva discrezione.
-    </div>
-      
-    <div class='termini_header'>
-        3. Tariffe e Pagamenti
-    </div>
-    <div class='article_text'>
-        Acquistando i nostri Prodotti e/o Servizi, accetti di pagare una tariffa o una tariffa di abbonamento annuale per tale Prodotto o Servizio. Le configurazioni e i prezzi del Sito, dei Prodotti e/o dei Servizi sono soggetti a modifiche in qualsiasi momento, e possiamo modificare le configurazioni, le tariffe, i prezzi e le quotazioni, a condizione che nessuna variazione di prezzo venga applicata all'utente durante il periodo di abbonamento, e avrà effetto solo dopo aver concordato un'estensione, un aggiornamento o un rinnovo del periodo di abbonamento. Doni il tuo consenso a tali modifiche se non ti opponi per iscritto entro sette (7) giorni lavorativi dal ricevimento della notifica, o dalla fattura, che incorpora o annuncia la commissione e/o le variazioni di prezzo. Tutti i prezzi sono considerati al netto, e sarai tenuto a pagare tutte le tasse, i dazi, le imposte, le commissioni o altri oneri simili.
-    </div>
-    
-    <div class='termini_header'>
-        4. Utilizzo di Contenuti e Materiali di Terze Parti
-    </div>
-    <div class='article_text'>
-        Attraverso la gestione del Sito, Noi non dichiariamo o implichiamo che si approvi il materiale ivi pubblicato o che si ritenga che tale materiale sia accurato, utile o non dannoso. Il Sito può contenere contenuti offensivi, indecenti o altrimenti discutibili, nonché contenuti contenenti imprecisioni tecniche, errori tipografici e altri errori. Il Sito può contenere anche materiale che violi i diritti di privacy o pubblicitari; che violi la proprietà intellettuale e altri diritti di proprietà di terzi; o il cui download, copia o utilizzo è soggetto a termini e condizioni aggiuntivi, dichiarati o non dichiarati. Noi decliniamo ogni responsabilità per eventuali violazioni e/o danni derivanti dall'utilizzo o dal download di messaggi o post di altre parti sul Sito.
-    </div>
-    
-    <div class='termini_header'>
-        5. Contenuti Pubblicati su Altri Siti Web
-    </div>
-    <div class='article_text'>
-        Noi non abbiamo esaminato, e non possiamo esaminare, tutto il materiale, includendo software per computer, reso disponibile attraverso i siti Web e le pagine Web a cui il nostro Sito si colleghi e a quelle collegate ad esso. Non abbiamo alcun controllo su tali siti Web e pagine Web di terze parti, e non siamo responsabili del loro contenuto o del loro utilizzo. Attraverso un link a un sito Web o a una pagina Web di terzi, non rappresentiamo né implichiamo l'approvazione di tale sito Web o pagina Web. 
-    </div>
-    
-    <div class='termini_header'>
-        6. Violazione del Copyright
-    </div>
-    <div class='article_text'>
-        Ti incoraggiamo a rispettare i diritti di proprietà intellettuale degli altri. Se ritieni che il materiale situato o indicato via link dal Sito violi il tuo copyright, ti preghiamo di comunicarcelo immediatamente a Noi. Risponderemo a tutti i suddetti avvisi, includendo se necessario o appropriato, la rimozione del materiale in violazione o disabilitando tutti i collegamenti al materiale in violazione.
-    </div>
-    
-    <div class='termini_header'>
-        7. Rescissione del Contratto
-    </div>
-    <div class='article_text'>
-        È possibile rescindere il tuo contratto e chiudere il tuo account con Noi in qualsiasi momento, con effetto a partire dall'ultimo giorno del periodo di abbonamento, inviando un'e-mail. Possiamo interrompere il suddetto rapporto con te, o possiamo interrompere o sospendere l'accessibilità al Sito, ai Prodotti e/o ai Servizi in qualsiasi momento, compreso l'uso di qualsiasi software, (i) in caso di violazione dei seguenti Termini; (ii) se Noi abbiamo il ragionevole sospetto che tu stia utilizzando il Sito, i Prodotti e/o i Servizi per violare la legge o infrangere i diritti di terzi; (iii) in caso di mancato pagamento degli importi a Noi dovuti; (iv) in caso di violazione di qualsiasi legge o regolamento applicabile. Alla chiusura del tuo account per i motivi di cui sopra indicati, non sarà effettuato alcun rimborso delle commissioni e ti verrà negato l'accesso al Sito, ai Prodotti e/o ai Servizi, inclusi tutti i suoi dati. Se ritieni che Noi abbiamo operato erroneamente o che i Servizi siano difettosi, devi comunicarcelo per iscritto e consentire quattordici (14) giorni per la correzione del difetto. Se Noi non risolviamo il difetto entro questo periodo, hai diritto a interrompere l'abbonamento con effetto immediato, previa comunicazione scritta a Noi.
-    </div>
-    
-    <div class='termini_header'>
-        8. Modifiche
-    </div>
-    <div class='article_text'>
-        Le configurazioni e le specifiche del Sito, inclusi, senza limitazioni, tutto il contenuto disponibile, i Prodotti e i Servizi possono essere modificati e/o aggiornati di volta in volta, a nostra esclusiva discrezione. Sei vincolato da tali modifiche o aggiornamenti, a meno che tali modifiche riducano materialmente la funzionalità e il valore del Sito, dei Prodotti e/o dei Servizi.
-    </div>
-    
-    <div class='termini_header'>
-        9. Nota Speciale in Merito ai Minori
-    </div>
-    <div class='article_text'>
-        Il Sito non è progettato o destinato all'uso da parte dei minori di età inferiore ai 16 anni, e i nostri Prodotti e Servizi non possono essere acquistati da minori di età inferiore ai 16 anni. Noi non raccogliamo intenzionalmente nessuna informazione personale da visitatori di età inferiore ai 16 anni. Se hai meno di 16 anni, non sei autorizzato a inviarci alcuna informazione personale. Se hai meno di 16 anni, dovresti utilizzare il Sito solo previo consenso di un genitore o tutore. 
-    </div>
-    
-    <div class='termini_header'>
-        10. Limitazione delle Garanzie
-    </div>
-    <div class='article_text'>
-        Noi e i nostri licenziatari non forniamo alcuna garanzia o dichiarazione in merito al Sito, ai Prodotti, ai Servizi, o a qualsiasi sito collegato o il suo contenuto, inclusi il contenuto, le informazioni e i materiali su di esso o l'accuratezza, la completezza o la puntualità del contenuto, delle informazioni e dei materiali. Inoltre, Noi non garantiamo né dichiariamo che l'accesso o l'utilizzo del Sito, dei Prodotti e/o dei Servizi o di qualsiasi sito collegato sarà ininterrotto o privo di errori o omissioni, che i difetti saranno corretti o che il Sito, i Prodotti e/o Servizi o qualsiasi sito collegato sia privo di virus informatici o di altri componenti dannosi. Noi non ci assumiamo alcuna responsabilità e non saremo responsabili per eventuali danni a, o virus che potrebbero infettare, il tuo computer o altre proprietà in merito all'uso dei Prodotti o dei Servizi, o del tuo accesso, utilizzo o navigazione nel Sito, o il download o upload di qualsiasi Contenuto da o verso il Sito. Se non sei soddisfatto del Sito, il tuo unico rimedio è interrompere l'utilizzo del Sito. Nessun consiglio, risultato o informazione, sia orale che scritta, ottenuta a voi da Noi o tramite il Sito, creerà alcuna garanzia non espressamente dichiarata nel presente documento. Noi non approviamo, supportiamo, sanzioniamo, incoraggiamo o concordiamo necessariamente con alcun contenuto o qualsiasi contenuto dell'utente, o qualsiasi opinione, raccomandazione, contenuto, collegamento, dato o consiglio espresso o implicito, e Noi decliniamo espressamente qualsiasi e tutte le responsabilità in relazione al contenuto dell'utente e qualsiasi altro contenuto, materiale o informazione disponibile su o tramite il Sito, i Prodotti e/o Servizi, creati o forniti dagli utenti o da altre terze parti. 
-    </div>
-    
-    <div class='termini_header'>
-        11 Limitazione di Responsabilità
-    </div>
-    <div class='article_text'>
-        Sotto nessuna circostanza qualsiasi parte, le sue sussidiarie e affiliati, i rispettivi direttori, funzionari, dipendenti o agenti e altri rappresentanti, saranno responsabili per danni indiretti, consequenziali, incidentali, speciali o punitivi, inclusi ma non limitati a mancati profitti e interruzione dell'attività, sia essa contrattuale o illecita, inclusa la negligenza, derivante in qualsiasi modo dall'uso del Sito, dei Prodotti, dei Servizi e/o dei relativi Contenuti, o di qualsiasi sito web o collegamento ipertestuale, anche se tale parte è espressamente informata della possibilità di tali danni. Ad eccezione dei danni relativi alla violazione della proprietà intellettuale legalmente provati o ammessi, causati da Prodotti e/o Servizi forniti da una parte senza alcun contenuto di terze parti, in nessun caso la responsabilità di una parte potrà superare le somme totali ricevute a Noi da voi durante il periodo di sei (6) mesi immediatamente prima della data in cui si sono verificati i danni.
-    </div>
-    
-    <div class='termini_header'>
-        12. Dichiarazioni e Garanzie dell'Utente
-    </div>
-    <div class='article_text'>
-        Dichiari e garantisci che il tuo utilizzo del Sito, dei Prodotti e/o dei Servizi sarà conforme a qualsiasi accordo tra te e Noi, l'Informativa sulla Privacy, i seguenti Termini e le leggi e i regolamenti applicabili, includendo e non limitandosi a qualsiasi legge o regolamento nel tuo paese, stato, città o altra area governativa in merito alla condotta online e ai contenuti accettabili, includendo tutte le leggi applicabili in merito alla trasmissione di dati tecnici esportati dal paese in cui risiedi, e con qualsiasi altra polizza applicabile e/o termini e condizioni.
-    </div>
-    
-    <div class='termini_header'>
-        13. Manleva
-    </div>
-    <div class='article_text'>
-        Salvo le limitazioni ivi stabilite, le Parti concordano nel difendersi, indennizzarsi e tenersi reciprocamente indenni, includendo le proprie sussidiarie e affiliati, i rispettivi direttori, funzionari, dipendenti o agenti e altri rappresentanti, da e contro tutte le rivendicazioni, perdite, danni, responsabilità e costi (inclusi, a titolo esemplificativo ma non esaustivo, le ragionevoli spese legali e i costi giudiziari), derivanti da, relativi o in connessione con (i) una violazione sostanziale dei presenti Termini o di qualsiasi accordo tra le Parti, o (ii) qualsiasi accusa in merito a qualsiasi informazione o materiale (incluso qualsiasi Contenuto) che violi i diritti di terzi. Comprendi e accetti che, utilizzando i Prodotti e/o Servizi, sei l'unico responsabile per qualsiasi dato, comprese le informazioni di identificazione personale, raccolto o elaborato tramite i nostri Prodotti e/o Servizi. Difenderai, indennizzerai e manterrai Noi indenni, senza alcuna limitazione, per tutti i danni in relazione a (presunte) violazioni di qualsiasi legge sulla privacy attraverso l'uso dei Prodotti e/o Servizi sotto il tuo account.
-    </div>
-    
-    <div class='termini_header'>
-        14. Varie ed Eventuali
-    </div>
-    <div class='article_text'>
-        Se una qualsiasi parte dei presenti Termini è ritenuta non valida o inapplicabile, tale parte sarà interpretata in modo da riflettere l'intento originale delle Parti, e le sezioni rimanenti rimarranno pienamente valide ed efficaci. Una rinuncia da parte di una delle parti a qualsiasi termine o condizione dei seguenti Termini o qualsiasi violazione degli stessi, non comporterà in qualsiasi caso alla rinuncia a tale termine o condizione o a qualsiasi successiva violazione degli stessi. Puoi cedere i tuoi diritti ai sensi dei presenti Termini solo a qualsiasi parte che acconsenta e accetti di essere vincolato dai termini del presente documento per forma scritta. Noi possiamo cedere i suoi diritti ai sensi dei presenti Termini a sua esclusiva discrezione. I presenti Termini saranno vincolanti e assicureranno il beneficio delle parti, dei loro successori e dei cessionari autorizzati. Dichiari che non esiste alcuna joint venture, partnership, rapporto di lavoro o agenzia tra te e Noi a seguito dei Termini o del tuo utilizzo del Sito, dei Prodotti e / o dei Servizi.
-    </div>
-    
-    </div>
 
-  </div>
-</div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </footer>
-    <script src='js/sensor.js'></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src='js/popup.js'></script>
-  </body>
+
+																							</div>
+																							<div
+																								id='vertical_line_footer'>
+																							</div>
+																							<div class='termini'
+																								id='myBtn'>
+																								Termini e Condizioni
+
+																								<div id="myModal"
+																									class="modal">
+
+																									<div
+																										class="modal-content">
+																										<span class="close">&times;</span>
+
+
+																										<div
+																											id='termini_e_condizioni'>
+
+																											<div
+																												class='article_header'>
+																												Termini
+																												e
+																												Condizioni
+																											</div>
+																											<div
+																												class='article_text'>
+																												<p> Utilizzando
+																													<a
+																														href='https://www.barocosmetics.com/'>http://barocosmetics.com</a>
+																													(di
+																													seguito
+																													indicato
+																													come
+																													"Sito"
+																													o"Noi"),
+																													dichiari
+																													di
+																													accettare
+																													i
+																													seguenti
+																													Termini
+																													e
+																													Condizioni.
+																													Se
+																													non
+																													accetti
+																													i
+																													seguenti
+																													Termini
+																													e
+																													condizioni,
+																													ti
+																													preghiamo
+																													di
+																													non
+																													utilizzare
+																													il
+																													nostro
+																													Sito.
+																													Ci
+																													riserviamo
+																													il
+																													diritto
+																													di
+																													modificare,
+																													alterare
+																													o
+																													aggiornare
+																													in
+																													altro
+																													modo
+																													questa
+																													polizza
+																													in
+																													qualsiasi
+																													momento.
+																													Noi
+																													preghiamo
+																													i
+																													visitatori
+																													a
+																													rivedere
+																													periodicamente
+																													i
+																													suddetti
+																													Termini
+																													e
+																													Condizioni.
+																													L'uso
+																													continuato
+																													del
+																													Sito
+																													dopo
+																													la
+																													pubblicazione
+																													di
+																													modifiche
+																													a
+																													questi
+																													termini
+																													indica
+																													l'accettazione
+																													delle
+																													suddette
+																													da
+																													parte
+																													tua.
+																												</p>
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												1. Il
+																												tuo
+																												Account
+																											</div>
+																											<div
+																												class='article_text'>
+																												Se crei
+																												un
+																												account
+																												sul
+																												nostro
+																												Sito,
+																												sei
+																												responsabile
+																												per il
+																												mantenimento
+																												della
+																												sicurezza
+																												del tuo
+																												account
+																												e sei
+																												pienamente
+																												responsabile
+																												di tutte
+																												le
+																												attività
+																												che si
+																												verificano
+																												sotto
+																												l'account
+																												e di
+																												qualsiasi
+																												altra
+																												azione
+																												intrapresa
+																												correlata
+																												all'account.
+																												Accetti
+																												di
+																												fornire
+																												e
+																												mantenere
+																												informazioni
+																												accurate,
+																												aggiornate
+																												e
+																												complete,
+																												comprese
+																												le tue
+																												informazioni
+																												sulle
+																												opzioni
+																												di
+																												pagamento
+																												e le
+																												informazioni
+																												di
+																												contatto
+																												per
+																												avvisi e
+																												altre
+																												comunicazioni
+																												da parte
+																												Nostra.
+																												Non puoi
+																												utilizzare
+																												informazioni
+																												false o
+																												fuorvianti
+																												correlate
+																												al tuo
+																												account.
+																											</div>
+
+
+																											<div
+																												class='termini_header'>
+																												2.
+																												Responsabilità
+																												degli
+																												Utilizzatori
+																												del
+																												Sito,
+																												dei
+																												Prodotti
+																												e/o dei
+																												Servizi
+																											</div>
+																											<div
+																												class='article_text'>
+																												Il tuo
+																												accesso,
+																												e il tuo
+																												utilizzo,
+																												del
+																												Sito,
+																												dei
+																												Prodotti
+																												e/o dei
+																												Servizi
+																												devono
+																												essere
+																												legittimi
+																												e devono
+																												essere
+																												conformi
+																												ai
+																												presenti
+																												Termini
+																												e a
+																												qualsiasi
+																												altro
+																												accordo
+																												tra te e
+																												noi.
+																												Quando
+																												accedi o
+																												utilizzi
+																												il Sito,
+																												i
+																												Prodotti
+																												e/o i
+																												Servizi,
+																												devi
+																												sempre
+																												comportarti
+																												in modo
+																												civile e
+																												rispettoso.
+																												Vietiamo
+																												espressamente
+																												qualsiasi
+																												utilizzo
+																												del
+																												Sito,
+																												dei
+																												Prodotti
+																												e/o dei
+																												Servizi,
+																												e
+																												acconsenti
+																												a non
+																												utilizzare
+																												il Sito,
+																												per uno
+																												dei
+																												seguenti
+																												motivi:
+																												<ul>
+																													<li><span>Intraprendere una condotta che potrebbe costituire un reato, dare luogo a responsabilità civili o altrimenti violare qualsiasi legge o regolamento cittadino, statale nazionale o internazionale non ritenuto conforme al protocollo internet accettato;</span>
+																													</li>
+																													<li><span>Comunicare, trasmettere o pubblicare materiale protetto da copyright oppure di proprietà di una terza parte, a meno che tu non sia il proprietario del copyright o disponga del permesso del proprietario di pubblicarlo;</span>
+																													</li>
+																													<li><span>Comunicare, trasmettere o pubblicare materiale che riveli segreti commerciali, a meno che tu non sia il proprietario o disponga del permesso del proprietario;</span>
+																													</li>
+																													<li><span>Comunicare, trasmettere o pubblicare materiale che violi la proprietà intellettuale, la privacy o il diritto di pubblicità altrui;</span>
+																													</li>
+																													<li><span>Tentare di interferire in qualsiasi modo con il Sito, le nostre reti o la loro sicurezza, o tentare di utilizzare il nostro Sito per ottenere accesso non autorizzato a un qualsiasi altro dispositivo;</span>
+																													</li>
+																													<li><span>L'accesso a dati non destinati all'utente, o l'accesso a un server o account a cui non si è stati autorizzati;</span>
+																													</li>
+																												</ul>
+																												In
+																												aggiunta,
+																												se
+																												gestisci
+																												un
+																												account,
+																												contribuisci
+																												a un
+																												account,
+																												pubblichi
+																												materiale
+																												sul
+																												Sito,
+																												pubblichi
+																												collegamenti
+																												ipertestuali
+																												sul Sito
+																												o rendi
+																												disponibile
+																												materiale
+																												in altro
+																												modo per
+																												mezzo
+																												del Sito
+																												(qualsiasi
+																												materiale
+																												di
+																												questo
+																												tipo,
+																												"Contenuto"),
+																												sei
+																												l'unico
+																												responsabile
+																												per il
+																												Contenuto
+																												e
+																												qualsiasi
+																												violazione
+																												e danno
+																												derivante
+																												da tale
+																												Contenuto,
+																												indipendentemente
+																												dal
+																												fatto
+																												che il
+																												Contenuto
+																												in
+																												questione
+																												sia
+																												testo,
+																												grafica,
+																												file
+																												audio o
+																												software
+																												per
+																												computer.
+																												Rendendo
+																												disponibile
+																												il
+																												Contenuto,
+																												dichiari
+																												e
+																												garantisci
+																												che:
+																												<ul>
+																													<li><span>il download, la copia e l'utilizzo del Contenuto non violerà i diritti di proprietà, includendo ma non limitando a diritti d'autore, brevetti, marchi commerciali o segreti commerciali di terze parti;</span>
+																													</li>
+																													<li><span>hai rispettato pienamente eventuali licenze di terze parti relative al Contenuto, e hai fatto tutto il necessario per trasmettere con successo agli utenti finali i termini richiesti;</span>
+																													</li>
+																													<li><span>il Contenuto non contiene né installa virus, worm, malware, trojan o altri contenuti dannosi o distruttivi;</span>
+																													</li>
+																													<li><span>il Contenuto non è osceno, diffamatorio, odioso o discutibile per motivi razziali e/o etnici, e non viola la privacy o i diritti pubblicitari di terze parti.</span>
+																													</li>
+																												</ul>
+																												È tua
+																												responsabilità
+																												prendere
+																												le
+																												precauzioni
+																												necessarie
+																												per
+																												proteggere
+																												te
+																												stesso e
+																												il tuo
+																												computer
+																												da
+																												virus,
+																												worm e
+																												altri
+																												contenuti
+																												dannosi
+																												o
+																												distruttivi.
+																												Provvederemo
+																												ragionevoli
+																												precauzioni
+																												per
+																												impedire
+																												la
+																												trasmissione
+																												di
+																												contenuti
+																												dannosi
+																												da
+																												sistemi
+																												tecnologici
+																												ai tuoi
+																												sistemi
+																												tecnologici.
+																												Noi
+																												decliniamo
+																												espressamente
+																												qualsiasi
+																												responsabilità
+																												per
+																												eventuali
+																												danni o
+																												danni
+																												derivanti
+																												dall'accesso
+																												o
+																												dall'utilizzo
+																												del
+																												Sito,
+																												dei
+																												Prodotti
+																												e/o dei
+																												Servizi,
+																												dall'accesso
+																												o
+																												dall'utilizzo
+																												di siti
+																												Web di
+																												terzi.
+																												Abbiamo
+																												il
+																												diritto
+																												(ma non
+																												l'obbligo)
+																												di (i)
+																												rifiutare
+																												o
+																												rimuovere
+																												qualsiasi
+																												Contenuto
+																												che, a
+																												nostro
+																												ragionevole
+																												parere,
+																												violi
+																												qualsiasi
+																												nostra
+																												politica
+																												interna
+																												o sia in
+																												alcun
+																												modo
+																												dannoso
+																												o
+																												discutibile,
+																												o (ii)
+																												interrompa
+																												o neghi
+																												l'accesso
+																												e
+																												l'utilizzo
+																												del
+																												Sito,
+																												dei
+																												Prodotti
+																												e / o
+																												dei
+																												Servizi,
+																												a
+																												qualsiasi
+																												persona
+																												per
+																												qualsiasi
+																												motivo,
+																												a nostra
+																												esclusiva
+																												discrezione.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												3.
+																												Tariffe
+																												e
+																												Pagamenti
+																											</div>
+																											<div
+																												class='article_text'>
+																												Acquistando
+																												i nostri
+																												Prodotti
+																												e/o
+																												Servizi,
+																												accetti
+																												di
+																												pagare
+																												una
+																												tariffa
+																												o una
+																												tariffa
+																												di
+																												abbonamento
+																												annuale
+																												per tale
+																												Prodotto
+																												o
+																												Servizio.
+																												Le
+																												configurazioni
+																												e i
+																												prezzi
+																												del
+																												Sito,
+																												dei
+																												Prodotti
+																												e/o dei
+																												Servizi
+																												sono
+																												soggetti
+																												a
+																												modifiche
+																												in
+																												qualsiasi
+																												momento,
+																												e
+																												possiamo
+																												modificare
+																												le
+																												configurazioni,
+																												le
+																												tariffe,
+																												i prezzi
+																												e le
+																												quotazioni,
+																												a
+																												condizione
+																												che
+																												nessuna
+																												variazione
+																												di
+																												prezzo
+																												venga
+																												applicata
+																												all'utente
+																												durante
+																												il
+																												periodo
+																												di
+																												abbonamento,
+																												e avrà
+																												effetto
+																												solo
+																												dopo
+																												aver
+																												concordato
+																												un'estensione,
+																												un
+																												aggiornamento
+																												o un
+																												rinnovo
+																												del
+																												periodo
+																												di
+																												abbonamento.
+																												Doni il
+																												tuo
+																												consenso
+																												a tali
+																												modifiche
+																												se non
+																												ti
+																												opponi
+																												per
+																												iscritto
+																												entro
+																												sette
+																												(7)
+																												giorni
+																												lavorativi
+																												dal
+																												ricevimento
+																												della
+																												notifica,
+																												o dalla
+																												fattura,
+																												che
+																												incorpora
+																												o
+																												annuncia
+																												la
+																												commissione
+																												e/o le
+																												variazioni
+																												di
+																												prezzo.
+																												Tutti i
+																												prezzi
+																												sono
+																												considerati
+																												al
+																												netto, e
+																												sarai
+																												tenuto a
+																												pagare
+																												tutte le
+																												tasse, i
+																												dazi, le
+																												imposte,
+																												le
+																												commissioni
+																												o altri
+																												oneri
+																												simili.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												4.
+																												Utilizzo
+																												di
+																												Contenuti
+																												e
+																												Materiali
+																												di Terze
+																												Parti
+																											</div>
+																											<div
+																												class='article_text'>
+																												Attraverso
+																												la
+																												gestione
+																												del
+																												Sito,
+																												Noi non
+																												dichiariamo
+																												o
+																												implichiamo
+																												che si
+																												approvi
+																												il
+																												materiale
+																												ivi
+																												pubblicato
+																												o che si
+																												ritenga
+																												che tale
+																												materiale
+																												sia
+																												accurato,
+																												utile o
+																												non
+																												dannoso.
+																												Il Sito
+																												può
+																												contenere
+																												contenuti
+																												offensivi,
+																												indecenti
+																												o
+																												altrimenti
+																												discutibili,
+																												nonché
+																												contenuti
+																												contenenti
+																												imprecisioni
+																												tecniche,
+																												errori
+																												tipografici
+																												e altri
+																												errori.
+																												Il Sito
+																												può
+																												contenere
+																												anche
+																												materiale
+																												che
+																												violi i
+																												diritti
+																												di
+																												privacy
+																												o
+																												pubblicitari;
+																												che
+																												violi la
+																												proprietà
+																												intellettuale
+																												e altri
+																												diritti
+																												di
+																												proprietà
+																												di
+																												terzi; o
+																												il cui
+																												download,
+																												copia o
+																												utilizzo
+																												è
+																												soggetto
+																												a
+																												termini
+																												e
+																												condizioni
+																												aggiuntivi,
+																												dichiarati
+																												o non
+																												dichiarati.
+																												Noi
+																												decliniamo
+																												ogni
+																												responsabilità
+																												per
+																												eventuali
+																												violazioni
+																												e/o
+																												danni
+																												derivanti
+																												dall'utilizzo
+																												o dal
+																												download
+																												di
+																												messaggi
+																												o post
+																												di altre
+																												parti
+																												sul
+																												Sito.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												5.
+																												Contenuti
+																												Pubblicati
+																												su Altri
+																												Siti Web
+																											</div>
+																											<div
+																												class='article_text'>
+																												Noi non
+																												abbiamo
+																												esaminato,
+																												e non
+																												possiamo
+																												esaminare,
+																												tutto il
+																												materiale,
+																												includendo
+																												software
+																												per
+																												computer,
+																												reso
+																												disponibile
+																												attraverso
+																												i siti
+																												Web e le
+																												pagine
+																												Web a
+																												cui il
+																												nostro
+																												Sito si
+																												colleghi
+																												e a
+																												quelle
+																												collegate
+																												ad esso.
+																												Non
+																												abbiamo
+																												alcun
+																												controllo
+																												su tali
+																												siti Web
+																												e pagine
+																												Web di
+																												terze
+																												parti, e
+																												non
+																												siamo
+																												responsabili
+																												del loro
+																												contenuto
+																												o del
+																												loro
+																												utilizzo.
+																												Attraverso
+																												un link
+																												a un
+																												sito Web
+																												o a una
+																												pagina
+																												Web di
+																												terzi,
+																												non
+																												rappresentiamo
+																												né
+																												implichiamo
+																												l'approvazione
+																												di tale
+																												sito Web
+																												o pagina
+																												Web.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												6.
+																												Violazione
+																												del
+																												Copyright
+																											</div>
+																											<div
+																												class='article_text'>
+																												Ti
+																												incoraggiamo
+																												a
+																												rispettare
+																												i
+																												diritti
+																												di
+																												proprietà
+																												intellettuale
+																												degli
+																												altri.
+																												Se
+																												ritieni
+																												che il
+																												materiale
+																												situato
+																												o
+																												indicato
+																												via link
+																												dal Sito
+																												violi il
+																												tuo
+																												copyright,
+																												ti
+																												preghiamo
+																												di
+																												comunicarcelo
+																												immediatamente
+																												a Noi.
+																												Risponderemo
+																												a tutti
+																												i
+																												suddetti
+																												avvisi,
+																												includendo
+																												se
+																												necessario
+																												o
+																												appropriato,
+																												la
+																												rimozione
+																												del
+																												materiale
+																												in
+																												violazione
+																												o
+																												disabilitando
+																												tutti i
+																												collegamenti
+																												al
+																												materiale
+																												in
+																												violazione.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												7.
+																												Rescissione
+																												del
+																												Contratto
+																											</div>
+																											<div
+																												class='article_text'>
+																												È
+																												possibile
+																												rescindere
+																												il tuo
+																												contratto
+																												e
+																												chiudere
+																												il tuo
+																												account
+																												con Noi
+																												in
+																												qualsiasi
+																												momento,
+																												con
+																												effetto
+																												a
+																												partire
+																												dall'ultimo
+																												giorno
+																												del
+																												periodo
+																												di
+																												abbonamento,
+																												inviando
+																												un'e-mail.
+																												Possiamo
+																												interrompere
+																												il
+																												suddetto
+																												rapporto
+																												con te,
+																												o
+																												possiamo
+																												interrompere
+																												o
+																												sospendere
+																												l'accessibilità
+																												al Sito,
+																												ai
+																												Prodotti
+																												e/o ai
+																												Servizi
+																												in
+																												qualsiasi
+																												momento,
+																												compreso
+																												l'uso di
+																												qualsiasi
+																												software,
+																												(i) in
+																												caso di
+																												violazione
+																												dei
+																												seguenti
+																												Termini;
+																												(ii) se
+																												Noi
+																												abbiamo
+																												il
+																												ragionevole
+																												sospetto
+																												che tu
+																												stia
+																												utilizzando
+																												il Sito,
+																												i
+																												Prodotti
+																												e/o i
+																												Servizi
+																												per
+																												violare
+																												la legge
+																												o
+																												infrangere
+																												i
+																												diritti
+																												di
+																												terzi;
+																												(iii) in
+																												caso di
+																												mancato
+																												pagamento
+																												degli
+																												importi
+																												a Noi
+																												dovuti;
+																												(iv) in
+																												caso di
+																												violazione
+																												di
+																												qualsiasi
+																												legge o
+																												regolamento
+																												applicabile.
+																												Alla
+																												chiusura
+																												del tuo
+																												account
+																												per i
+																												motivi
+																												di cui
+																												sopra
+																												indicati,
+																												non sarà
+																												effettuato
+																												alcun
+																												rimborso
+																												delle
+																												commissioni
+																												e ti
+																												verrà
+																												negato
+																												l'accesso
+																												al Sito,
+																												ai
+																												Prodotti
+																												e/o ai
+																												Servizi,
+																												inclusi
+																												tutti i
+																												suoi
+																												dati. Se
+																												ritieni
+																												che Noi
+																												abbiamo
+																												operato
+																												erroneamente
+																												o che i
+																												Servizi
+																												siano
+																												difettosi,
+																												devi
+																												comunicarcelo
+																												per
+																												iscritto
+																												e
+																												consentire
+																												quattordici
+																												(14)
+																												giorni
+																												per la
+																												correzione
+																												del
+																												difetto.
+																												Se Noi
+																												non
+																												risolviamo
+																												il
+																												difetto
+																												entro
+																												questo
+																												periodo,
+																												hai
+																												diritto
+																												a
+																												interrompere
+																												l'abbonamento
+																												con
+																												effetto
+																												immediato,
+																												previa
+																												comunicazione
+																												scritta
+																												a Noi.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												8.
+																												Modifiche
+																											</div>
+																											<div
+																												class='article_text'>
+																												Le
+																												configurazioni
+																												e le
+																												specifiche
+																												del
+																												Sito,
+																												inclusi,
+																												senza
+																												limitazioni,
+																												tutto il
+																												contenuto
+																												disponibile,
+																												i
+																												Prodotti
+																												e i
+																												Servizi
+																												possono
+																												essere
+																												modificati
+																												e/o
+																												aggiornati
+																												di volta
+																												in
+																												volta, a
+																												nostra
+																												esclusiva
+																												discrezione.
+																												Sei
+																												vincolato
+																												da tali
+																												modifiche
+																												o
+																												aggiornamenti,
+																												a meno
+																												che tali
+																												modifiche
+																												riducano
+																												materialmente
+																												la
+																												funzionalità
+																												e il
+																												valore
+																												del
+																												Sito,
+																												dei
+																												Prodotti
+																												e/o dei
+																												Servizi.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												9. Nota
+																												Speciale
+																												in
+																												Merito
+																												ai
+																												Minori
+																											</div>
+																											<div
+																												class='article_text'>
+																												Il Sito
+																												non è
+																												progettato
+																												o
+																												destinato
+																												all'uso
+																												da parte
+																												dei
+																												minori
+																												di età
+																												inferiore
+																												ai 16
+																												anni, e
+																												i nostri
+																												Prodotti
+																												e
+																												Servizi
+																												non
+																												possono
+																												essere
+																												acquistati
+																												da
+																												minori
+																												di età
+																												inferiore
+																												ai 16
+																												anni.
+																												Noi non
+																												raccogliamo
+																												intenzionalmente
+																												nessuna
+																												informazione
+																												personale
+																												da
+																												visitatori
+																												di età
+																												inferiore
+																												ai 16
+																												anni. Se
+																												hai meno
+																												di 16
+																												anni,
+																												non sei
+																												autorizzato
+																												a
+																												inviarci
+																												alcuna
+																												informazione
+																												personale.
+																												Se hai
+																												meno di
+																												16 anni,
+																												dovresti
+																												utilizzare
+																												il Sito
+																												solo
+																												previo
+																												consenso
+																												di un
+																												genitore
+																												o
+																												tutore.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												10.
+																												Limitazione
+																												delle
+																												Garanzie
+																											</div>
+																											<div
+																												class='article_text'>
+																												Noi e i
+																												nostri
+																												licenziatari
+																												non
+																												forniamo
+																												alcuna
+																												garanzia
+																												o
+																												dichiarazione
+																												in
+																												merito
+																												al Sito,
+																												ai
+																												Prodotti,
+																												ai
+																												Servizi,
+																												o a
+																												qualsiasi
+																												sito
+																												collegato
+																												o il suo
+																												contenuto,
+																												inclusi
+																												il
+																												contenuto,
+																												le
+																												informazioni
+																												e i
+																												materiali
+																												su di
+																												esso o
+																												l'accuratezza,
+																												la
+																												completezza
+																												o la
+																												puntualità
+																												del
+																												contenuto,
+																												delle
+																												informazioni
+																												e dei
+																												materiali.
+																												Inoltre,
+																												Noi non
+																												garantiamo
+																												né
+																												dichiariamo
+																												che
+																												l'accesso
+																												o
+																												l'utilizzo
+																												del
+																												Sito,
+																												dei
+																												Prodotti
+																												e/o dei
+																												Servizi
+																												o di
+																												qualsiasi
+																												sito
+																												collegato
+																												sarà
+																												ininterrotto
+																												o privo
+																												di
+																												errori o
+																												omissioni,
+																												che i
+																												difetti
+																												saranno
+																												corretti
+																												o che il
+																												Sito, i
+																												Prodotti
+																												e/o
+																												Servizi
+																												o
+																												qualsiasi
+																												sito
+																												collegato
+																												sia
+																												privo di
+																												virus
+																												informatici
+																												o di
+																												altri
+																												componenti
+																												dannosi.
+																												Noi non
+																												ci
+																												assumiamo
+																												alcuna
+																												responsabilità
+																												e non
+																												saremo
+																												responsabili
+																												per
+																												eventuali
+																												danni a,
+																												o virus
+																												che
+																												potrebbero
+																												infettare,
+																												il tuo
+																												computer
+																												o altre
+																												proprietà
+																												in
+																												merito
+																												all'uso
+																												dei
+																												Prodotti
+																												o dei
+																												Servizi,
+																												o del
+																												tuo
+																												accesso,
+																												utilizzo
+																												o
+																												navigazione
+																												nel
+																												Sito, o
+																												il
+																												download
+																												o upload
+																												di
+																												qualsiasi
+																												Contenuto
+																												da o
+																												verso il
+																												Sito. Se
+																												non sei
+																												soddisfatto
+																												del
+																												Sito, il
+																												tuo
+																												unico
+																												rimedio
+																												è
+																												interrompere
+																												l'utilizzo
+																												del
+																												Sito.
+																												Nessun
+																												consiglio,
+																												risultato
+																												o
+																												informazione,
+																												sia
+																												orale
+																												che
+																												scritta,
+																												ottenuta
+																												a voi da
+																												Noi o
+																												tramite
+																												il Sito,
+																												creerà
+																												alcuna
+																												garanzia
+																												non
+																												espressamente
+																												dichiarata
+																												nel
+																												presente
+																												documento.
+																												Noi non
+																												approviamo,
+																												supportiamo,
+																												sanzioniamo,
+																												incoraggiamo
+																												o
+																												concordiamo
+																												necessariamente
+																												con
+																												alcun
+																												contenuto
+																												o
+																												qualsiasi
+																												contenuto
+																												dell'utente,
+																												o
+																												qualsiasi
+																												opinione,
+																												raccomandazione,
+																												contenuto,
+																												collegamento,
+																												dato o
+																												consiglio
+																												espresso
+																												o
+																												implicito,
+																												e Noi
+																												decliniamo
+																												espressamente
+																												qualsiasi
+																												e tutte
+																												le
+																												responsabilità
+																												in
+																												relazione
+																												al
+																												contenuto
+																												dell'utente
+																												e
+																												qualsiasi
+																												altro
+																												contenuto,
+																												materiale
+																												o
+																												informazione
+																												disponibile
+																												su o
+																												tramite
+																												il Sito,
+																												i
+																												Prodotti
+																												e/o
+																												Servizi,
+																												creati o
+																												forniti
+																												dagli
+																												utenti o
+																												da altre
+																												terze
+																												parti.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												11
+																												Limitazione
+																												di
+																												Responsabilità
+																											</div>
+																											<div
+																												class='article_text'>
+																												Sotto
+																												nessuna
+																												circostanza
+																												qualsiasi
+																												parte,
+																												le sue
+																												sussidiarie
+																												e
+																												affiliati,
+																												i
+																												rispettivi
+																												direttori,
+																												funzionari,
+																												dipendenti
+																												o agenti
+																												e altri
+																												rappresentanti,
+																												saranno
+																												responsabili
+																												per
+																												danni
+																												indiretti,
+																												consequenziali,
+																												incidentali,
+																												speciali
+																												o
+																												punitivi,
+																												inclusi
+																												ma non
+																												limitati
+																												a
+																												mancati
+																												profitti
+																												e
+																												interruzione
+																												dell'attività,
+																												sia essa
+																												contrattuale
+																												o
+																												illecita,
+																												inclusa
+																												la
+																												negligenza,
+																												derivante
+																												in
+																												qualsiasi
+																												modo
+																												dall'uso
+																												del
+																												Sito,
+																												dei
+																												Prodotti,
+																												dei
+																												Servizi
+																												e/o dei
+																												relativi
+																												Contenuti,
+																												o di
+																												qualsiasi
+																												sito web
+																												o
+																												collegamento
+																												ipertestuale,
+																												anche se
+																												tale
+																												parte è
+																												espressamente
+																												informata
+																												della
+																												possibilità
+																												di tali
+																												danni.
+																												Ad
+																												eccezione
+																												dei
+																												danni
+																												relativi
+																												alla
+																												violazione
+																												della
+																												proprietà
+																												intellettuale
+																												legalmente
+																												provati
+																												o
+																												ammessi,
+																												causati
+																												da
+																												Prodotti
+																												e/o
+																												Servizi
+																												forniti
+																												da una
+																												parte
+																												senza
+																												alcun
+																												contenuto
+																												di terze
+																												parti,
+																												in
+																												nessun
+																												caso la
+																												responsabilità
+																												di una
+																												parte
+																												potrà
+																												superare
+																												le somme
+																												totali
+																												ricevute
+																												a Noi da
+																												voi
+																												durante
+																												il
+																												periodo
+																												di sei
+																												(6) mesi
+																												immediatamente
+																												prima
+																												della
+																												data in
+																												cui si
+																												sono
+																												verificati
+																												i danni.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												12.
+																												Dichiarazioni
+																												e
+																												Garanzie
+																												dell'Utente
+																											</div>
+																											<div
+																												class='article_text'>
+																												Dichiari
+																												e
+																												garantisci
+																												che il
+																												tuo
+																												utilizzo
+																												del
+																												Sito,
+																												dei
+																												Prodotti
+																												e/o dei
+																												Servizi
+																												sarà
+																												conforme
+																												a
+																												qualsiasi
+																												accordo
+																												tra te e
+																												Noi,
+																												l'Informativa
+																												sulla
+																												Privacy,
+																												i
+																												seguenti
+																												Termini
+																												e le
+																												leggi e
+																												i
+																												regolamenti
+																												applicabili,
+																												includendo
+																												e non
+																												limitandosi
+																												a
+																												qualsiasi
+																												legge o
+																												regolamento
+																												nel tuo
+																												paese,
+																												stato,
+																												città o
+																												altra
+																												area
+																												governativa
+																												in
+																												merito
+																												alla
+																												condotta
+																												online e
+																												ai
+																												contenuti
+																												accettabili,
+																												includendo
+																												tutte le
+																												leggi
+																												applicabili
+																												in
+																												merito
+																												alla
+																												trasmissione
+																												di dati
+																												tecnici
+																												esportati
+																												dal
+																												paese in
+																												cui
+																												risiedi,
+																												e con
+																												qualsiasi
+																												altra
+																												polizza
+																												applicabile
+																												e/o
+																												termini
+																												e
+																												condizioni.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												13.
+																												Manleva
+																											</div>
+																											<div
+																												class='article_text'>
+																												Salvo le
+																												limitazioni
+																												ivi
+																												stabilite,
+																												le Parti
+																												concordano
+																												nel
+																												difendersi,
+																												indennizzarsi
+																												e
+																												tenersi
+																												reciprocamente
+																												indenni,
+																												includendo
+																												le
+																												proprie
+																												sussidiarie
+																												e
+																												affiliati,
+																												i
+																												rispettivi
+																												direttori,
+																												funzionari,
+																												dipendenti
+																												o agenti
+																												e altri
+																												rappresentanti,
+																												da e
+																												contro
+																												tutte le
+																												rivendicazioni,
+																												perdite,
+																												danni,
+																												responsabilità
+																												e costi
+																												(inclusi,
+																												a titolo
+																												esemplificativo
+																												ma non
+																												esaustivo,
+																												le
+																												ragionevoli
+																												spese
+																												legali e
+																												i costi
+																												giudiziari),
+																												derivanti
+																												da,
+																												relativi
+																												o in
+																												connessione
+																												con (i)
+																												una
+																												violazione
+																												sostanziale
+																												dei
+																												presenti
+																												Termini
+																												o di
+																												qualsiasi
+																												accordo
+																												tra le
+																												Parti, o
+																												(ii)
+																												qualsiasi
+																												accusa
+																												in
+																												merito a
+																												qualsiasi
+																												informazione
+																												o
+																												materiale
+																												(incluso
+																												qualsiasi
+																												Contenuto)
+																												che
+																												violi i
+																												diritti
+																												di
+																												terzi.
+																												Comprendi
+																												e
+																												accetti
+																												che,
+																												utilizzando
+																												i
+																												Prodotti
+																												e/o
+																												Servizi,
+																												sei
+																												l'unico
+																												responsabile
+																												per
+																												qualsiasi
+																												dato,
+																												comprese
+																												le
+																												informazioni
+																												di
+																												identificazione
+																												personale,
+																												raccolto
+																												o
+																												elaborato
+																												tramite
+																												i nostri
+																												Prodotti
+																												e/o
+																												Servizi.
+																												Difenderai,
+																												indennizzerai
+																												e
+																												manterrai
+																												Noi
+																												indenni,
+																												senza
+																												alcuna
+																												limitazione,
+																												per
+																												tutti i
+																												danni in
+																												relazione
+																												a
+																												(presunte)
+																												violazioni
+																												di
+																												qualsiasi
+																												legge
+																												sulla
+																												privacy
+																												attraverso
+																												l'uso
+																												dei
+																												Prodotti
+																												e/o
+																												Servizi
+																												sotto il
+																												tuo
+																												account.
+																											</div>
+
+																											<div
+																												class='termini_header'>
+																												14.
+																												Varie ed
+																												Eventuali
+																											</div>
+																											<div
+																												class='article_text'>
+																												Se una
+																												qualsiasi
+																												parte
+																												dei
+																												presenti
+																												Termini
+																												è
+																												ritenuta
+																												non
+																												valida o
+																												inapplicabile,
+																												tale
+																												parte
+																												sarà
+																												interpretata
+																												in modo
+																												da
+																												riflettere
+																												l'intento
+																												originale
+																												delle
+																												Parti, e
+																												le
+																												sezioni
+																												rimanenti
+																												rimarranno
+																												pienamente
+																												valide
+																												ed
+																												efficaci.
+																												Una
+																												rinuncia
+																												da parte
+																												di una
+																												delle
+																												parti a
+																												qualsiasi
+																												termine
+																												o
+																												condizione
+																												dei
+																												seguenti
+																												Termini
+																												o
+																												qualsiasi
+																												violazione
+																												degli
+																												stessi,
+																												non
+																												comporterà
+																												in
+																												qualsiasi
+																												caso
+																												alla
+																												rinuncia
+																												a tale
+																												termine
+																												o
+																												condizione
+																												o a
+																												qualsiasi
+																												successiva
+																												violazione
+																												degli
+																												stessi.
+																												Puoi
+																												cedere i
+																												tuoi
+																												diritti
+																												ai sensi
+																												dei
+																												presenti
+																												Termini
+																												solo a
+																												qualsiasi
+																												parte
+																												che
+																												acconsenta
+																												e
+																												accetti
+																												di
+																												essere
+																												vincolato
+																												dai
+																												termini
+																												del
+																												presente
+																												documento
+																												per
+																												forma
+																												scritta.
+																												Noi
+																												possiamo
+																												cedere i
+																												suoi
+																												diritti
+																												ai sensi
+																												dei
+																												presenti
+																												Termini
+																												a sua
+																												esclusiva
+																												discrezione.
+																												I
+																												presenti
+																												Termini
+																												saranno
+																												vincolanti
+																												e
+																												assicureranno
+																												il
+																												beneficio
+																												delle
+																												parti,
+																												dei loro
+																												successori
+																												e dei
+																												cessionari
+																												autorizzati.
+																												Dichiari
+																												che non
+																												esiste
+																												alcuna
+																												joint
+																												venture,
+																												partnership,
+																												rapporto
+																												di
+																												lavoro o
+																												agenzia
+																												tra te e
+																												Noi a
+																												seguito
+																												dei
+																												Termini
+																												o del
+																												tuo
+																												utilizzo
+																												del
+																												Sito,
+																												dei
+																												Prodotti
+																												e / o
+																												dei
+																												Servizi.
+																											</div>
+
+																										</div>
+
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+		</footer>
+		<script src='js/sensor.js'></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src='js/disclaimer.js'></script>
+		<script src='js/popup.js'></script>
+</body>
+
 </html>

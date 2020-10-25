@@ -1,6 +1,8 @@
 /* The Modal (background) */
 
-#myBtn {
+#myBtn,
+#myBtnPrivacy,
+#myBtnDisclaimer {
     cursor: pointer;
 }
 
@@ -46,7 +48,8 @@
     cursor: pointer;
   } */
 
-  .termini_header {
+  .termini_header,
+  .privacy_header {
     color: rgba(245,27,27,255);
     font-size: 24px;
     margin: 35px 0px 0px 0px;
@@ -63,4 +66,9 @@ li {
 
 li span {
     color: #24242e;
+}
+
+p a {
+    text-decoration: underline;
+    color: #f91212;
 }

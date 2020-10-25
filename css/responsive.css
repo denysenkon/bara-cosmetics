@@ -63,3 +63,15 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .vertical_line {
+        margin: 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .header_padding_left {
+        padding-left: 12vw;
+    }
+}
