@@ -125,9 +125,17 @@ header {
     font-weight: 500;
 }
 
+.button_overlap {
+    z-index: 200;
+    position: absolute;
+    top: 90vh;
+    background-color: white;
+    margin-right: 17vw;
+
+}
+
 .main_header {
     font-size: 46px;
-    padding: 30px 5vw 0px;
 }
 
 .article_header {
@@ -191,10 +199,10 @@ z-index:1;
 
 #button_sticky {
     text-align: center;
-    margin: 11vh 0px 12vh;
+    margin: 11vh 0px 14vh;
     position: -webkit-sticky;
     position: sticky;
-    top: 86%;
+    top: 85.5%;
     z-index: 100;
 }
  
@@ -211,10 +219,16 @@ z-index:1;
 }
 
 .button_space {
-    z-index: 0px;
-    height: 200px;
+    z-index: 0;
+    height: 140px;
     width: auto;
 }
+/* 
+@media only screen and (max-width: 684px) {
+    #redirect_button {
+        height:
+    }
+} */
 
 .footer_text {
     display: flex;
