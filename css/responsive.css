@@ -34,7 +34,7 @@
     .footer_text {
         display: flex;
         flex-direction: column-reverse;
-    }  footer {
+    }  main {
        margin: 0vh 10vw;
    }
     .comment_shape_last {
@@ -46,8 +46,20 @@
     .comment_section {
         padding: 0px;
     }
-    .comment-text {
-        font-size: 0.7em;
+    .comment_text {
+        font-size: 0.9em;
+    } 
+}
+
+@media only screen and (max-width: 571px) {
+    .comment_text {
+        top: -3vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .comment_text {
+        top: -4vh;
     }
 }
 
@@ -61,7 +73,7 @@
         text-align: right;
     } #vertical_line_footer {
         display: none;
-    }
+    } 
 }
 
 @media only screen and (max-width: 400px) {
@@ -73,5 +85,5 @@
 @media only screen and (max-width: 335px) {
     .header_padding_left {
         padding-left: 12vw;
-    }
+    } 
 }

@@ -20,7 +20,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-main, footer {
+main {
     width: auto;
     margin: 0vh 17vw;
 }
@@ -189,29 +189,15 @@ z-index:1;
     padding: 28px 0px;
 }
 
-.button_wrapper {
-    
-     overflow-x: auto;
-}
-
-
-.redirect_button {
+#button_sticky {
     text-align: center;
     margin: 11vh 0px 12vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 86%;
+    z-index: 100;
 }
-/* 
-#button_sticky {
-  position: fixed;
-  bottom: -135px;
-  left: 25%;
-  z-index:9999;
-} */
-
-#button_sticky {
-position: sticky;
-bottom: 0;
-}
-
+ 
 #redirect_button {
     height: 100px;
     width: 50vw;
@@ -222,6 +208,12 @@ bottom: 0;
     font-family: 'Roboto Medium', sans-serif;
     color: white;
     cursor: pointer;
+}
+
+.button_space {
+    z-index: 0px;
+    height: 200px;
+    width: auto;
 }
 
 .footer_text {
