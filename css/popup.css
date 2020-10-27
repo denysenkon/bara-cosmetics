@@ -23,30 +23,12 @@
   .modal-content {
     background-color: #fefefe;
     margin: 2% auto; /* 15% from the top and centered */
-    padding: 80px 70px 127px 70px;
+    padding: 30px 70px 70px 70px;
     border: 1px solid #888;
     border-radius: 60px;
     width: 60%; /* Could be more or less, depending on screen size */
   }
   
-  /* The Close Button */
-  .close {
-      display: none;
-  }
-
-  /* .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  } */
 
   .termini_header,
   .privacy_header {

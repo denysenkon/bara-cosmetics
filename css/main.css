@@ -127,10 +127,9 @@ header {
 
 .button_overlap {
     z-index: 200;
-    position: absolute;
-    top: 90vh;
+    position: relative;
     background-color: white;
-    margin-right: 17vw;
+    margin-top: -222px;
 
 }
 
@@ -199,10 +198,10 @@ z-index:1;
 
 #button_sticky {
     text-align: center;
-    margin: 11vh 0px 14vh;
+    margin: 11vh 0px 15vh;
     position: -webkit-sticky;
     position: sticky;
-    top: 85.5%;
+    top: 86vh;
     z-index: 100;
 }
  
@@ -223,12 +222,7 @@ z-index:1;
     height: 140px;
     width: auto;
 }
-/* 
-@media only screen and (max-width: 684px) {
-    #redirect_button {
-        height:
-    }
-} */
+
 
 .footer_text {
     display: flex;

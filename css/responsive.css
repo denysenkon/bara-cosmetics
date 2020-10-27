@@ -51,16 +51,25 @@
     } 
 }
 
-@media only screen and (max-width: 571px) {
+@media only screen and (max-width: 575px) {
+    .comment_avatar {
+        margin-top: -30px;
+    }
     .comment_text {
-        top: -3vh;
+        margin: 1vh 0px;
+    } .comment_shape {
+        padding: 8vh 0px;
+    } #comment_shape_first {
+        padding: 50px 0px;
+    }  #comment_shape_last {
+        margin-top: 20vw;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .comment_text {
-        top: -4vh;
-    }
+        margin-top: -3vw;
+    } 
 }
 
 @media only screen and (max-width: 475px) {
@@ -73,7 +82,37 @@
         text-align: right;
     } #vertical_line_footer {
         display: none;
-    } 
+    } .comment_shape {
+        padding: 20vw 0px;
+    } .comment_avatar  {
+        margin-top: -65px;
+    }
+     #comment_shape_first {
+        margin-bottom: 20vw;
+    }
+}
+
+@media only screen and (max-width: 421px) {
+    .comment_shape {
+        margin: 15vw 0px;
+    } .comment_text {
+        margin-top: -1vw;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+     .comment_shape {
+        margin: 24vw 0px;
+    }  #comment_shape_first {
+        margin-bottom: 27vw;
+    }
+    .comment_avatar {
+       margin-top: -130px;
+
+    }
+    .comment_text {
+        margin-top: -2vw;
+}
 }
 
 @media only screen and (max-width: 400px) {
@@ -82,8 +121,50 @@
     }
 }
 
+
 @media only screen and (max-width: 335px) {
     .header_padding_left {
         padding-left: 12vw;
     } 
+}
+
+
+@media only screen and (max-width: 1051px) {
+    #button_sticky {
+        margin-bottom: 20vh;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+#button_sticky {
+        margin-bottom: 15vh;
+}
+}
+
+@media only screen and (max-width: 745px) {
+    #button_sticky {
+        top: 88vh;
+    }
+ #redirect_button {
+        height: 80px;
+}
+}
+
+@media only screen and (max-width: 580px) {
+    #button_sticky {
+        top: 92vh;
+    }
+ #redirect_button {
+        height: 65px;
+        font-size: 3vw;
+        width: 60vw;
+}
+}
+
+@media only screen and (max-width: 425px) {
+#button_sticky {
+        margin-bottom: 19vh;
+}  #redirect_button {
+    font-size: 3.3vw;
+}
 }
