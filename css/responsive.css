@@ -61,9 +61,9 @@
         padding: 8vh 0px;
     } #comment_shape_first {
         padding: 50px 0px;
-    }  #comment_shape_last {
-        margin-top: 20vw;
-    }
+    }  .comment_shape_last {
+        padding: 0px;
+    } 
 }
 
 @media only screen and (max-width: 500px) {
@@ -89,7 +89,9 @@
     }
      #comment_shape_first {
         margin-bottom: 20vw;
-    }
+    } .comment_shape_last {
+        padding: 0px;
+    } 
 }
 
 @media only screen and (max-width: 421px) {
@@ -97,7 +99,9 @@
         margin: 15vw 0px;
     } .comment_text {
         margin-top: -1vw;
-    }
+    } .comment_shape_last {
+        margin: 0px;
+    } 
 }
 
 @media only screen and (max-width: 359px) {
@@ -112,13 +116,15 @@
     }
     .comment_text {
         margin-top: -2vw;
-}
+}   .comment_shape_last {
+        margin: 0px;
+    } 
 }
 
 @media only screen and (max-width: 400px) {
     .vertical_line {
         margin: 0px 10px;
-    }
+    } 
 }
 
 
@@ -166,5 +172,7 @@
         margin-bottom: 19vh;
 }  #redirect_button {
     font-size: 3.3vw;
+}  #redirect_button {
+    height: 50px;
 }
 }
