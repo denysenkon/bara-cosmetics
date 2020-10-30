@@ -1,4 +1,29 @@
-// termini
+// sensor
+
+(function () {
+  var d = document,
+    w = window;
+  w.MgSensorData = w.MgSensorData || [];
+  w.MgSensorData.push({
+    cid: 447000,
+    lng: "us",
+    nosafari: true,
+    project: "a.mgid.com",
+  });
+  var l = "a.mgid.com";
+  var n = d.getElementsByTagName("script")[0];
+  var s = d.createElement("script");
+  s.type = "text/javascript";
+  s.async = true;
+  var dt = !Date.now ? new Date().valueOf() : Date.now();
+  s.src = "https://" + l + "/mgsensor.js?d=" + dt;
+  n.parentNode.insertBefore(s, n);
+})();
+
+
+
+// termini pop-up
+
 var modal = document.getElementById("myModal");
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -13,7 +38,9 @@ window.addEventListener("click", function(event) {
   }
 });
 
-// Disclaimer 
+
+
+// Disclaimer pop-up
 
 var modalDisclaimer = document.getElementById("myModalDisclaimer");
 // Get the button that opens the modal
@@ -29,13 +56,14 @@ window.addEventListener("click", function(event) {
   }
 });
 
-//privacy
+//privacy pop-up
+
 var modalPrivacy = document.getElementById("myModalPrivacy");
 // Get the button that opens the modal
 var btnPrivacy = document.getElementById("myBtnPrivacy");
 // When the user clicks on the button, open the modal 
 btnPrivacy.onclick = function() {
-  modal.style.display = "block";
+  modalPrivacy.style.display = "block";
 }
 // When the user clicks anywhere outside of the modal, close it
 window.addEventListener("click", function(event) {
