@@ -97,26 +97,25 @@ h2 {
     z-index: 999;
     position: relative;
     background-color: white;
-    margin-top: -230px;
+    margin-top: -140px;
 }
 
 .button_sticky {
     text-align: center;
-    margin: 11vh 0px 15vh;
+    margin: 11vh 0px 11vh;
     position: -webkit-sticky;
     position: sticky;
     top: 91vh;
     z-index: 998;
-    height: 100px;
 }
  
 #redirect_button {
     height: 200px;
-    width: 50vw;
+    width: 100px;
     border: none;
     border-radius: 50px;
     background-color: #f91212;
-    font-size: 2.5vw;
+    font-size: 2rem;
     font-family: 'Roboto Medium', sans-serif;
     color: white;
     cursor: pointer;
@@ -266,13 +265,16 @@ z-index:1;
     display: flex;
     align-items: center;
     color: #1f1f1f;
+    margin: 30px 0px;
+    position: relative;
 }
 
 .footer_text::before {    
     content: '';
-    border-bottom: 1px solid #00e9c1;
+    border-top: 1px solid #00e9c1;
     width: 100%;
-    margin-bottom:40px;
+    position: absolute;
+    top: -30px;
 }
 
 #vertical_line_footer {
@@ -282,14 +284,14 @@ z-index:1;
 
 .left {
     position: absolute;
-    left: 20vw;
+    left: 4vw;
 }
 
 .right {
     display: flex;
     flex-direction: row;
     position: absolute;
-    right: 20vw;
+    right: 4vw;
     text-decoration: underline;
     text-decoration-color: #a8a8a8;
 }
@@ -364,14 +366,12 @@ li span {
     color: #24242e;
 }
 
-p a {
+.modal-content p a {
     text-decoration: underline;
     color: #f91212;
 }
 
 /*    */
-
-/* adaptivity  */
 
 @media only screen and (max-width: 1095px) {
     .modal-content {
@@ -395,21 +395,35 @@ p a {
 }
 }
 
-@media only screen and (max-width: 884px) {
+@media only screen and (max-width: 905px) {
+   #redirect_button {
+        font-size: 1.5rem;
+    } .button_sticky {
+        top: 93vh;
+    }
+}
+
+@media only screen and (max-width: 890px) {
     .right, .left {
         position: static; 
         padding-bottom: 10px;
         }
         .footer_text {
             padding: 0px;
+            margin: 10px 0px;
         }
     .footer_text {
         display: flex;
         flex-direction: column-reverse;
     }  main {
        margin: 0vh 10vw;
+   } .button_sticky {
+        margin: 11vh 0px 20vh;
    }
 }
+
+
+
 @media only screen and (max-width: 575px) { .bg_left_1::after,
     .bg_left_2::after,
     .bg_left_3::after 
@@ -429,11 +443,13 @@ p a {
         text-align: left;
     }
     .termini {        
-                padding: 5px;
+        padding: 5px;
         text-align: right;
     } #vertical_line_footer {
         display: none;
-    } 
+    } .button_sticky {
+     margin: 11vh 0px 25vh;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -449,49 +465,31 @@ p a {
     } 
 }
 
-
-@media only screen and (max-width: 1051px) {
-    #button_sticky {
-        margin-bottom: 20vh;
-    }
-}
-
 @media only screen and (max-width: 880px) {
-#button_sticky {
-        margin-bottom: 15vh;
-} .comment_avatar {
+.comment_avatar {
     width: 15vw;
 }
 }
 
-@media only screen and (max-width: 745px) {
-    #button_sticky {
-        top: 88vh;
-    }
- #redirect_button {
-        height: 80px;
-}
-}
-
 @media only screen and (max-width: 580px) {
-    #button_sticky {
-        top: 92vh;
-    }
  #redirect_button {
-        height: 65px;
-        font-size: 3vw;
-        width: 60vw;
-} .comment_avatar {
+        font-size: 1rem;
+}  .button_sticky {
+        top: 95vh;
+    }
+.comment_avatar {
     width: 25vw;
 }
 }
 
-@media only screen and (max-width: 425px) {
-#button_sticky {
-        margin-bottom: 19vh;
-}  #redirect_button {
-    font-size: 3.3vw;
-}  #redirect_button {
-    height: 50px;
+@media only screen and (max-width: 420px) {
+   #redirect_button {
+        font-size: 0.9rem;
+    } .button_sticky {
+}
+
+@media only screen and (max-width: 380px) {
+      #redirect_button {
+        font-size: 0.7rem;
 }
 }
