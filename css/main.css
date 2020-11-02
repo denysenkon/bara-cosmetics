@@ -485,7 +485,7 @@ li span {
 @media only screen and (max-width: 420px) {
    #redirect_button {
         font-size: 0.9rem;
-    } .button_sticky {
+    } 
 }
 
 @media only screen and (max-width: 380px) {
